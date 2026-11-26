@@ -5,13 +5,26 @@ gradient boosting. ML2 is a weighted seven-neighbor inspector. The selected
 positive-evidence gate uses arrived verified labels, and pseudo-label training
 is disabled. Models are refitted periodically; this is not per-sample partial_fit.
 
+## Start the paper review
+
+Read the [latest audited six-page English manuscript](manuscripts/r11/paper.pdf)
+and [reviewer guide](docs/REVIEWER_GUIDE.md). The guide links a 60-file data map,
+array schemas, claim-to-code evidence, result recomputation, exact release assets
+and reproduction commands. [Audit findings and repairs](docs/AUDIT_REPORT.md)
+are explicit; the frozen experimental results are unchanged.
+
+Release [v1.2.0](https://github.com/langss1/verified-feedback-adaptive-ids/releases/tag/v1.2.0)
+contains the synchronized manuscript/source and audit maps. Experimental data
+remain in v1.0.0/v1.1.0; source caps are not guaranteed class balance, and the
+82-feature space applies to corrected CIC confirmation. All labels are simulated.
+
 ## D5 extension: matched native ARF and additional captures
 
 The frozen extension adds 80 native-ARF runs and 40 shared HGB/NN trajectories,
 yielding 240 additional system evaluations. Two previously unscored capture
 members contain 12000 flows each. The detailed protocol, audit and analysis are
 in [extensions/d5](extensions/d5). Download the reproducible extension, updated
-five-page English manuscript, editable source and supplement from
+historical five-page R7 manuscript, editable source and supplement from
 [release v1.1.0](https://github.com/langss1/verified-feedback-adaptive-ids/releases/tag/v1.1.0).
 
 | New capture | GDT BA | Native ARF BA | Simple maximum BA | GDT - verified BA |

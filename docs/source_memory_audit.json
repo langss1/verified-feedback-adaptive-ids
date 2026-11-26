@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 11,
+    "base_benign": 8001,
+    "base_attack": 191,
+    "source_replay_samples": 703,
+    "source_prototype_samples": 703
+  },
+  {
+    "seed": 23,
+    "base_benign": 8012,
+    "base_attack": 180,
+    "source_replay_samples": 692,
+    "source_prototype_samples": 692
+  },
+  {
+    "seed": 37,
+    "base_benign": 7998,
+    "base_attack": 194,
+    "source_replay_samples": 706,
+    "source_prototype_samples": 706
+  },
+  {
+    "seed": 51,
+    "base_benign": 8020,
+    "base_attack": 172,
+    "source_replay_samples": 684,
+    "source_prototype_samples": 684
+  },
+  {
+    "seed": 79,
+    "base_benign": 8000,
+    "base_attack": 192,
+    "source_replay_samples": 704,
+    "source_prototype_samples": 704
+  }
+]

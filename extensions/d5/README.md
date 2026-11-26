@@ -1,5 +1,9 @@
 # D5: native ARF and two unused capture members
 
+For the synchronized paper, data map, and repaired public replay entry point,
+start with [the reviewer guide](../../docs/REVIEWER_GUIDE.md) and a root clone at
+tag `v1.2.0`. The v1.1.0 experimental ZIP and its locks remain unchanged.
+
 This repository folder is the reviewable source copy. For execution, use the
 canonical release ZIP and the sibling-directory layout described below; do not
 run the source copy in place inside `extensions/d5`.

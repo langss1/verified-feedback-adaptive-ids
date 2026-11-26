@@ -1,0 +1,79 @@
+[
+  {
+    "name": "D5_Adaptive_Baseline_Extension.zip",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/D5_Adaptive_Baseline_Extension.zip",
+    "expected_bytes": 156542155,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 156542155
+  },
+  {
+    "name": "D5_Baseline_and_New_Capture_Supplement.pdf",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/D5_Baseline_and_New_Capture_Supplement.pdf",
+    "expected_bytes": 339077,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 339077
+  },
+  {
+    "name": "ICNGN_English_R7_5_Pages.pdf",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/ICNGN_English_R7_5_Pages.pdf",
+    "expected_bytes": 154530,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 154530
+  },
+  {
+    "name": "ICNGN_English_R7_Editable_Source.zip",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/ICNGN_English_R7_Editable_Source.zip",
+    "expected_bytes": 427571,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 427571
+  },
+  {
+    "name": "example_models.zip",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.0.0/example_models.zip",
+    "expected_bytes": 5760601,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 5760601
+  },
+  {
+    "name": "prepared_inputs.zip",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.0.0/prepared_inputs.zip",
+    "expected_bytes": 120665588,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 120665588
+  },
+  {
+    "name": "saved_predictions.zip",
+    "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.0.0/saved_predictions.zip",
+    "expected_bytes": 422457556,
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 422457556
+  },
+  {
+    "name": "Corrected CICIDS2017 provider",
+    "url": "https://intrusion-detection.distrinet-research.be/WTMC2021/",
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 5113
+  },
+  {
+    "name": "Corrected CSE-CICIDS2018 provider",
+    "url": "https://intrusion-detection.distrinet-research.be/CNS2022/CSECICIDS2018.html",
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 70001
+  },
+  {
+    "name": "Raw dataset download page",
+    "url": "https://intrusion-detection.distrinet-research.be/CNS2022/Dataset_Download.html",
+    "anonymous_status": 200,
+    "reachable": true,
+    "reported_bytes": 1512
+  }
+]

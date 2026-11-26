@@ -1,0 +1,4470 @@
+{
+  "scope": "Prepared-input level; source labels and evaluator gold are explicitly separated. S3 retention replaces initial CAL during confirmation. Dimensions are dataset/seed specific. These 60 files are not independent populations.",
+  "files": [
+    {
+      "dataset": "friday",
+      "role": "development only (corrected CICIDS2017 Friday)",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/friday_11.npz",
+      "sha256": "aa01776538594d0ed4aa2e5d6a3bb72d357acb8a0a78537a072a6330173df49f",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8867,
+      "attack": 3133,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U18",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "friday",
+      "role": "development only (corrected CICIDS2017 Friday)",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/friday_23.npz",
+      "sha256": "fc8c9aa423d47faeadf3d05debbe7798dece5be7a04c0089cf864e698a1b58c5",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8867,
+      "attack": 3133,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U18",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "friday",
+      "role": "development only (corrected CICIDS2017 Friday)",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/friday_37.npz",
+      "sha256": "6af59243c77601619379c916a7533e9ddaa47f289e6b485c718e6a373195b83f",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8867,
+      "attack": 3133,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U18",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "friday",
+      "role": "development only (corrected CICIDS2017 Friday)",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/friday_51.npz",
+      "sha256": "d7f4c217ca89a6785c09e303b74531eba275bb1e5649c9dd6463ff9b0ac2cdd1",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8867,
+      "attack": 3133,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U18",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "friday",
+      "role": "development only (corrected CICIDS2017 Friday)",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/friday_79.npz",
+      "sha256": "0b45cfdbebe704893d36fa47bca8a15c2979644e722dbe2fda076d15ee5b2546",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8867,
+      "attack": 3133,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U18",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "history",
+      "role": "historical source BASE/META/initial CAL",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/history_11.npz",
+      "sha256": "0657e2f3397dd15d749bfe17b1a678f1c88ba4eb998f42f0771f630385d97b59",
+      "matrix": "base",
+      "stored_rows": 8192,
+      "used_stream_rows": 8192,
+      "features": 82,
+      "benign": 8001,
+      "attack": 191,
+      "label_field": "y_base",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            8192,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            8192
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        }
+      }
+    },
+    {
+      "dataset": "history",
+      "role": "historical source BASE/META/initial CAL",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/history_23.npz",
+      "sha256": "b44424310ae2f2f2d36b87bbc7abcea26f67f8ce081737a26834ae4ae731f7a7",
+      "matrix": "base",
+      "stored_rows": 8192,
+      "used_stream_rows": 8192,
+      "features": 82,
+      "benign": 8012,
+      "attack": 180,
+      "label_field": "y_base",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            8192,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            8192
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        }
+      }
+    },
+    {
+      "dataset": "history",
+      "role": "historical source BASE/META/initial CAL",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/history_37.npz",
+      "sha256": "54d5a19e958b2f6bd9dfe0d2810c1f523d8ca236347dc468177212366b837609",
+      "matrix": "base",
+      "stored_rows": 8192,
+      "used_stream_rows": 8192,
+      "features": 82,
+      "benign": 7998,
+      "attack": 194,
+      "label_field": "y_base",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            8192,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            8192
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        }
+      }
+    },
+    {
+      "dataset": "history",
+      "role": "historical source BASE/META/initial CAL",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/history_51.npz",
+      "sha256": "eccd769054267b82e7d3f57a50ba2fc687b203b3a5f238b6b8da6bd43aa8df8e",
+      "matrix": "base",
+      "stored_rows": 8192,
+      "used_stream_rows": 8192,
+      "features": 82,
+      "benign": 8020,
+      "attack": 172,
+      "label_field": "y_base",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            8192,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            8192
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        }
+      }
+    },
+    {
+      "dataset": "history",
+      "role": "historical source BASE/META/initial CAL",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/history_79.npz",
+      "sha256": "a42c7d67d66fbee1e41c98cafe3305df71351fc68efdb29f334ed0f3712fffe8",
+      "matrix": "base",
+      "stored_rows": 8192,
+      "used_stream_rows": 8192,
+      "features": 82,
+      "benign": 8000,
+      "attack": 192,
+      "label_field": "y_base",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            8192,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            8192
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        }
+      }
+    },
+    {
+      "dataset": "nsl",
+      "role": "development only (NSL-KDD)",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/nsl_11.npz",
+      "sha256": "1d7734d6ac7abd0901f14153f115675b955b64592ef53425fda4d222a37ee350",
+      "matrix": "test",
+      "stored_rows": 22317,
+      "used_stream_rows": 4000,
+      "features": 118,
+      "benign": 1725,
+      "attack": 2275,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            15114,
+            118
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "meta": {
+          "shape": [
+            5038,
+            118
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "cal": {
+          "shape": [
+            5038,
+            118
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "test": {
+          "shape": [
+            22317,
+            118
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_base": {
+          "shape": [
+            15114
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "y_meta": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "y_cal": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "y_test": {
+          "shape": [
+            22317
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            118
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "nsl",
+      "role": "development only (NSL-KDD)",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/nsl_23.npz",
+      "sha256": "7b63659be902ed2cd00b4a85839ea0e98026ceb05931fcef9566f781ae60bd2c",
+      "matrix": "test",
+      "stored_rows": 22317,
+      "used_stream_rows": 4000,
+      "features": 117,
+      "benign": 1725,
+      "attack": 2275,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            15114,
+            117
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "meta": {
+          "shape": [
+            5038,
+            117
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "cal": {
+          "shape": [
+            5038,
+            117
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "test": {
+          "shape": [
+            22317,
+            117
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_base": {
+          "shape": [
+            15114
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "y_meta": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "y_cal": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "y_test": {
+          "shape": [
+            22317
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            117
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "nsl",
+      "role": "development only (NSL-KDD)",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/nsl_37.npz",
+      "sha256": "aa2c1947398f6f9ac855b11b7b2b63152cd35255aa16be2628b06cad155725b9",
+      "matrix": "test",
+      "stored_rows": 22317,
+      "used_stream_rows": 4000,
+      "features": 118,
+      "benign": 1725,
+      "attack": 2275,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            15114,
+            118
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "meta": {
+          "shape": [
+            5038,
+            118
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "cal": {
+          "shape": [
+            5038,
+            118
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "test": {
+          "shape": [
+            22317,
+            118
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_base": {
+          "shape": [
+            15114
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "y_meta": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "y_cal": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "y_test": {
+          "shape": [
+            22317
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            118
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "nsl",
+      "role": "development only (NSL-KDD)",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/nsl_51.npz",
+      "sha256": "4c24878e5a8b1664ba199d52726e2a06125c68557ed50e0eaef83628ce277421",
+      "matrix": "test",
+      "stored_rows": 22317,
+      "used_stream_rows": 4000,
+      "features": 117,
+      "benign": 1725,
+      "attack": 2275,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            15114,
+            117
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "meta": {
+          "shape": [
+            5038,
+            117
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "cal": {
+          "shape": [
+            5038,
+            117
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "test": {
+          "shape": [
+            22317,
+            117
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_base": {
+          "shape": [
+            15114
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "y_meta": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "y_cal": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "y_test": {
+          "shape": [
+            22317
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            117
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "nsl",
+      "role": "development only (NSL-KDD)",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/nsl_79.npz",
+      "sha256": "b71ba2f004bb81587b70cb78dca23b86345778b69b60336b7a71110f29edff55",
+      "matrix": "test",
+      "stored_rows": 22317,
+      "used_stream_rows": 4000,
+      "features": 116,
+      "benign": 1725,
+      "attack": 2275,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            15114,
+            116
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "meta": {
+          "shape": [
+            5038,
+            116
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "cal": {
+          "shape": [
+            5038,
+            116
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "test": {
+          "shape": [
+            22317,
+            116
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_base": {
+          "shape": [
+            15114
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "y_meta": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "y_cal": {
+          "shape": [
+            5038
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "y_test": {
+          "shape": [
+            22317
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            116
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "retention",
+      "role": "final S3 source retention probe",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/retention_11.npz",
+      "sha256": "f263543cb12028162a9a16c625652ac117590813be92727516cfdca0c345ac39",
+      "matrix": "cal",
+      "stored_rows": 1024,
+      "used_stream_rows": 1024,
+      "features": 82,
+      "benign": 512,
+      "attack": 512,
+      "label_field": "y_cal",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "raw_rows": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "groups": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "keys": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "retention",
+      "role": "final S3 source retention probe",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/retention_23.npz",
+      "sha256": "1b4d1b32783d406177a44162abde4cbda271c96fa2322da6d1cbe3f2f31830e5",
+      "matrix": "cal",
+      "stored_rows": 1024,
+      "used_stream_rows": 1024,
+      "features": 82,
+      "benign": 512,
+      "attack": 512,
+      "label_field": "y_cal",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "raw_rows": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "groups": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "keys": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "retention",
+      "role": "final S3 source retention probe",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/retention_37.npz",
+      "sha256": "6e5a2fca6f12d51359d860d36350e3c44063603039bbe767a0723d9e7b5cb12b",
+      "matrix": "cal",
+      "stored_rows": 1024,
+      "used_stream_rows": 1024,
+      "features": 82,
+      "benign": 512,
+      "attack": 512,
+      "label_field": "y_cal",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "raw_rows": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "groups": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "keys": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "retention",
+      "role": "final S3 source retention probe",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/retention_51.npz",
+      "sha256": "efaecfafc94192f0b7253160eba0a36397c37b6962496bc3838a446c3d3eaf75",
+      "matrix": "cal",
+      "stored_rows": 1024,
+      "used_stream_rows": 1024,
+      "features": 82,
+      "benign": 512,
+      "attack": 512,
+      "label_field": "y_cal",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "raw_rows": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "groups": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "keys": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "retention",
+      "role": "final S3 source retention probe",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/retention_79.npz",
+      "sha256": "d68d719b563e2022258e0b920c8249c4db27c5a494db1ef2af10552b80d445b4",
+      "matrix": "cal",
+      "stored_rows": 1024,
+      "used_stream_rows": 1024,
+      "features": 82,
+      "benign": 512,
+      "attack": 512,
+      "label_field": "y_cal",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "cal": {
+          "shape": [
+            1024,
+            82
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "raw_rows": {
+          "shape": [
+            1024
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "groups": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "keys": {
+          "shape": [
+            1024
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "unsw",
+      "role": "development only (UNSW-NB15)",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/unsw_11.npz",
+      "sha256": "f9c70579f247bf93cc3ca27e07ce6b808e6d71745758df384495eb1413359537",
+      "matrix": "test",
+      "stored_rows": 12125,
+      "used_stream_rows": 6000,
+      "features": 170,
+      "benign": 2186,
+      "attack": 3814,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            9543,
+            170
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            9543
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            3181,
+            170
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            3181,
+            170
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "test": {
+          "shape": [
+            12125,
+            170
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            170
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_family": {
+          "shape": [
+            12125
+          ],
+          "dtype": "<U14",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_source_row": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_main": {
+          "shape": [
+            6000
+          ],
+          "dtype": "int32",
+          "role": "selected development stream indices"
+        },
+        "probe_main": {
+          "shape": [
+            400
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_recurrence": {
+          "shape": [
+            3000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "probe_recurrence": {
+          "shape": [
+            400
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "unsw",
+      "role": "development only (UNSW-NB15)",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/unsw_23.npz",
+      "sha256": "0bdeec88de162055f16e3a908e2059512b401513e714f7886e54818cc41c930e",
+      "matrix": "test",
+      "stored_rows": 12125,
+      "used_stream_rows": 6000,
+      "features": 157,
+      "benign": 2209,
+      "attack": 3791,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            9543,
+            157
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            9543
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            3181,
+            157
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            3181,
+            157
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "test": {
+          "shape": [
+            12125,
+            157
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            157
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_family": {
+          "shape": [
+            12125
+          ],
+          "dtype": "<U14",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_source_row": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_main": {
+          "shape": [
+            6000
+          ],
+          "dtype": "int32",
+          "role": "selected development stream indices"
+        },
+        "probe_main": {
+          "shape": [
+            400
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_recurrence": {
+          "shape": [
+            3000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "probe_recurrence": {
+          "shape": [
+            400
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "unsw",
+      "role": "development only (UNSW-NB15)",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/unsw_37.npz",
+      "sha256": "118a588cb74b6c9af85857b2813854b227776493481a618724599a9ee7876cc6",
+      "matrix": "test",
+      "stored_rows": 12125,
+      "used_stream_rows": 6000,
+      "features": 167,
+      "benign": 2227,
+      "attack": 3773,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            9543,
+            167
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            9543
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            3181,
+            167
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            3181,
+            167
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "test": {
+          "shape": [
+            12125,
+            167
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            167
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_family": {
+          "shape": [
+            12125
+          ],
+          "dtype": "<U14",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_source_row": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_main": {
+          "shape": [
+            6000
+          ],
+          "dtype": "int32",
+          "role": "selected development stream indices"
+        },
+        "probe_main": {
+          "shape": [
+            400
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_recurrence": {
+          "shape": [
+            3000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "probe_recurrence": {
+          "shape": [
+            400
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "unsw",
+      "role": "development only (UNSW-NB15)",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/unsw_51.npz",
+      "sha256": "71da725b2e0e5ee74baf41f0337761883a8c0d57a5c10ed41f9cf5f532baaae5",
+      "matrix": "test",
+      "stored_rows": 12125,
+      "used_stream_rows": 6000,
+      "features": 157,
+      "benign": 2244,
+      "attack": 3756,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            9543,
+            157
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            9543
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            3181,
+            157
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            3181,
+            157
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "test": {
+          "shape": [
+            12125,
+            157
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            157
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_family": {
+          "shape": [
+            12125
+          ],
+          "dtype": "<U14",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_source_row": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_main": {
+          "shape": [
+            6000
+          ],
+          "dtype": "int32",
+          "role": "selected development stream indices"
+        },
+        "probe_main": {
+          "shape": [
+            400
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_recurrence": {
+          "shape": [
+            3000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "probe_recurrence": {
+          "shape": [
+            400
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "unsw",
+      "role": "development only (UNSW-NB15)",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/unsw_79.npz",
+      "sha256": "90a1e38efeee8dd8e50e4e7070f41902f41215190f6419a57a4c72f907777be7",
+      "matrix": "test",
+      "stored_rows": 12125,
+      "used_stream_rows": 6000,
+      "features": 160,
+      "benign": 2220,
+      "attack": 3780,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "base": {
+          "shape": [
+            9543,
+            160
+          ],
+          "dtype": "float64",
+          "role": "historical training features"
+        },
+        "y_base": {
+          "shape": [
+            9543
+          ],
+          "dtype": "int32",
+          "role": "historical training labels"
+        },
+        "meta": {
+          "shape": [
+            3181,
+            160
+          ],
+          "dtype": "float64",
+          "role": "historical geometry/calibration features"
+        },
+        "y_meta": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "historical META labels (historical subset selection)"
+        },
+        "cal": {
+          "shape": [
+            3181,
+            160
+          ],
+          "dtype": "float64",
+          "role": "historical evaluation/probe features"
+        },
+        "y_cal": {
+          "shape": [
+            3181
+          ],
+          "dtype": "int32",
+          "role": "evaluation-only source labels"
+        },
+        "test": {
+          "shape": [
+            12125,
+            160
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "initial_w": {
+          "shape": [
+            160
+          ],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "initial_b": {
+          "shape": [],
+          "dtype": "float64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_family": {
+          "shape": [
+            12125
+          ],
+          "dtype": "<U14",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_source_row": {
+          "shape": [
+            12125
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_main": {
+          "shape": [
+            6000
+          ],
+          "dtype": "int32",
+          "role": "selected development stream indices"
+        },
+        "probe_main": {
+          "shape": [
+            400
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "stream_recurrence": {
+          "shape": [
+            3000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "probe_recurrence": {
+          "shape": [
+            400
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "wednesday",
+      "role": "development only (corrected CICIDS2017 Wednesday)",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/wednesday_11.npz",
+      "sha256": "d62e96babb3a6733300a90d9b1ea7088d808b4020bb5821907aed85f6d81a290",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 7526,
+      "attack": 4474,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U28",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "wednesday",
+      "role": "development only (corrected CICIDS2017 Wednesday)",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/wednesday_23.npz",
+      "sha256": "9d13fcbb0a13126b6cf2124e052d5937d50560efedab4c0a0386217f90f5677e",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 7526,
+      "attack": 4474,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U28",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "wednesday",
+      "role": "development only (corrected CICIDS2017 Wednesday)",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/wednesday_37.npz",
+      "sha256": "02302e6705fb2616212d4e73880fe6d7dfc00f49e1a2735c7b738c7d0d7dd353",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 7526,
+      "attack": 4474,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U28",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "wednesday",
+      "role": "development only (corrected CICIDS2017 Wednesday)",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/wednesday_51.npz",
+      "sha256": "8f10cf7a9ea0e92877eee6a3a0286dcab15115cc188fb3f57c5f495fa09a536d",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 7526,
+      "attack": 4474,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U28",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "wednesday",
+      "role": "development only (corrected CICIDS2017 Wednesday)",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "inputs/wednesday_79.npz",
+      "sha256": "4d2844f1733d7081d2290857a4807be45441e55d71408f5d47707ddb57a45dd0",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 7526,
+      "attack": 4474,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U28",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "bot_main",
+      "role": "original confirmation Bot02",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/bot_main_11.npz",
+      "sha256": "1ab78b2f85f1a46c4c06d90c98e41756ecfd78a6b9a5f5d20e6122af389aa016",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11666,
+      "attack": 334,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U23",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "bot_main",
+      "role": "original confirmation Bot02",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/bot_main_23.npz",
+      "sha256": "7338f713b554807971ef923941bb88345a60b7359f3a970f238acf7d19311236",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11666,
+      "attack": 334,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U23",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "bot_main",
+      "role": "original confirmation Bot02",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/bot_main_37.npz",
+      "sha256": "79cde7b5e6810ca3d52031d496356e6109e332543a6a8ea94cb69ffd9618eaee",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11666,
+      "attack": 334,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U23",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "bot_main",
+      "role": "original confirmation Bot02",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/bot_main_51.npz",
+      "sha256": "097d6cffef45ce844ddb7c3e4fd74e2f17e57035622b297b0471b6c10c636efa",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11666,
+      "attack": 334,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U23",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "bot_main",
+      "role": "original confirmation Bot02",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/bot_main_79.npz",
+      "sha256": "ba909ca8754fc2276fd68d640bbc2bb9355b4643261a68cfdb1b74617bb355d3",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11666,
+      "attack": 334,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U23",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos_main",
+      "role": "original confirmation DoS15",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/dos_main_11.npz",
+      "sha256": "d3e450f36eebab255cceb04bb81dba5be0db052bc04e97d0ea28e029fc896f98",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11919,
+      "attack": 81,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos_main",
+      "role": "original confirmation DoS15",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/dos_main_23.npz",
+      "sha256": "f42c0b3af699796779b9ad5eba58b48749a46edb65057831c709ff6b82d2bf06",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11919,
+      "attack": 81,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos_main",
+      "role": "original confirmation DoS15",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/dos_main_37.npz",
+      "sha256": "c9a79bd816828e17266f304ec58c552a611b1e01c2d932fe81b418d4d1109aa8",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11919,
+      "attack": 81,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos_main",
+      "role": "original confirmation DoS15",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/dos_main_51.npz",
+      "sha256": "e3161e0af3e639e395a3fe1f2a9e3db411bb04ab0d1780b695b7eeab4432cba5",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11919,
+      "attack": 81,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos_main",
+      "role": "original confirmation DoS15",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/dos_main_79.npz",
+      "sha256": "b0a24132906cee6f895e89ac03ec7d29d62e24c31a02601e16b21255e7a3cf94",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11919,
+      "attack": 81,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_challenge",
+      "role": "case-control Web challenge",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_challenge_11.npz",
+      "sha256": "fb6511037c3a14d09a9fe549903ae0f0affe233606a5fe150406a00b2d891b47",
+      "matrix": "test",
+      "stored_rows": 12158,
+      "used_stream_rows": 12158,
+      "features": 82,
+      "benign": 12000,
+      "attack": 158,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12158,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12158
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12158
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_challenge",
+      "role": "case-control Web challenge",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_challenge_23.npz",
+      "sha256": "ef837f266a00d6836bdd766c1e1b5b4c83db83659acdf0f746abc86680227ca6",
+      "matrix": "test",
+      "stored_rows": 12158,
+      "used_stream_rows": 12158,
+      "features": 82,
+      "benign": 12000,
+      "attack": 158,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12158,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12158
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12158
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_challenge",
+      "role": "case-control Web challenge",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_challenge_37.npz",
+      "sha256": "ec52c3bba090e9a6c8fcd642d5a42d28052dc11bc2e874bdfc8af741f6b9cd28",
+      "matrix": "test",
+      "stored_rows": 12158,
+      "used_stream_rows": 12158,
+      "features": 82,
+      "benign": 12000,
+      "attack": 158,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12158,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12158
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12158
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_challenge",
+      "role": "case-control Web challenge",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_challenge_51.npz",
+      "sha256": "43aa62c63a6026ab28b5157dcbd03b1dea6290d35dcd99bb16340c70dec07b8b",
+      "matrix": "test",
+      "stored_rows": 12158,
+      "used_stream_rows": 12158,
+      "features": 82,
+      "benign": 12000,
+      "attack": 158,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12158,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12158
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12158
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_challenge",
+      "role": "case-control Web challenge",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_challenge_79.npz",
+      "sha256": "0263bc886e795ebec30ef17d7882a62c256a9ec6455991a5c8144ec9668fc286",
+      "matrix": "test",
+      "stored_rows": 12158,
+      "used_stream_rows": 12158,
+      "features": 82,
+      "benign": 12000,
+      "attack": 158,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12158,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12158
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12158
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12158
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_main",
+      "role": "descriptive only, label-blind Web",
+      "seed": 11,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_main_11.npz",
+      "sha256": "06d240f9c7df39fcccc3d8661905a7e7874d0ebd3f1b878697bde0302e8ccd13",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11999,
+      "attack": 1,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_main",
+      "role": "descriptive only, label-blind Web",
+      "seed": 23,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_main_23.npz",
+      "sha256": "852926981d3a4f47669388a2888258a6c6918e95ded26c4a960da0dfa3b2cfc6",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11999,
+      "attack": 1,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_main",
+      "role": "descriptive only, label-blind Web",
+      "seed": 37,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_main_37.npz",
+      "sha256": "e1e77e4726b49892b5d301c2b71a62d6b50418fa5c92fce355c8894462a2c99e",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11999,
+      "attack": 1,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_main",
+      "role": "descriptive only, label-blind Web",
+      "seed": 51,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_main_51.npz",
+      "sha256": "66f06b7eb3ecda5a01704e8957587e7838288a86bb255041ba21658b3e99bc22",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11999,
+      "attack": 1,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "web_main",
+      "role": "descriptive only, label-blind Web",
+      "seed": 79,
+      "release": "v1.0.0",
+      "asset": "prepared_inputs.zip",
+      "workspace_directory": "adaptive_feedback_d4_20261126",
+      "path": "data/external/web_main_79.npz",
+      "sha256": "7703fa17b0029222f1059fbe8a9133cb0795c6c00e867043040f2ea370cfe6a0",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11999,
+      "attack": 1,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U24",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "ddos20_new",
+      "role": "new capture DDoS20",
+      "seed": 11,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/ddos20_new_11.npz",
+      "sha256": "433cd00684c8288052f6d59a155a1eb86126650f084b5988ff8ae612df720341",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11157,
+      "attack": 843,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "ddos20_new",
+      "role": "new capture DDoS20",
+      "seed": 23,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/ddos20_new_23.npz",
+      "sha256": "a50034bee61bc88993d4afc280f4d0b9dab75fb487ee8c0a54a7d678dd3af6e3",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11157,
+      "attack": 843,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "ddos20_new",
+      "role": "new capture DDoS20",
+      "seed": 37,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/ddos20_new_37.npz",
+      "sha256": "405eaa3fa944381dfc3ad41acb481cb2a0066e2ffb790a3a5b27fa702a9cccf6",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11157,
+      "attack": 843,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "ddos20_new",
+      "role": "new capture DDoS20",
+      "seed": 51,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/ddos20_new_51.npz",
+      "sha256": "5241f764b52b7c923e4ea9fdb575d3e7fad076287a64d5728950ba7566d6a4c7",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11157,
+      "attack": 843,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "ddos20_new",
+      "role": "new capture DDoS20",
+      "seed": 79,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/ddos20_new_79.npz",
+      "sha256": "da5482d2085cd9d97cefd5dabb76c4ae2b37b916aa1eb7f2e3e918fcc7eb3fb3",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 11157,
+      "attack": 843,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U25",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos16_new",
+      "role": "new capture Hulk16",
+      "seed": 11,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/dos16_new_11.npz",
+      "sha256": "56c3ce0bf3020485d631bebaa7e3f96c17977f1de066c16a6bb71898841f50f5",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8080,
+      "attack": 3920,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U8",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos16_new",
+      "role": "new capture Hulk16",
+      "seed": 23,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/dos16_new_23.npz",
+      "sha256": "9057951bf8857cc0720956d72d043c8c961546264e01725eb667e6ce7e53a40a",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8080,
+      "attack": 3920,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U8",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos16_new",
+      "role": "new capture Hulk16",
+      "seed": 37,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/dos16_new_37.npz",
+      "sha256": "dcfdf27c0ee711c26b316dff8cb11c0cb311778db033677b35bbc6ddae4e6457",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8080,
+      "attack": 3920,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U8",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos16_new",
+      "role": "new capture Hulk16",
+      "seed": 51,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/dos16_new_51.npz",
+      "sha256": "f3fd0bf640ab3014ae87fe1c936c2e29891291947b9debd8e54adf2a086f7bb7",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8080,
+      "attack": 3920,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U8",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    },
+    {
+      "dataset": "dos16_new",
+      "role": "new capture Hulk16",
+      "seed": 79,
+      "release": "v1.1.0",
+      "asset": "D5_Adaptive_Baseline_Extension.zip",
+      "workspace_directory": "adaptive_baseline_d5_20261126",
+      "path": "data/dos16_new_79.npz",
+      "sha256": "856e3513b78426a71d905230ba103f7d2458ac397fd90e063a7841a2fe60b364",
+      "matrix": "test",
+      "stored_rows": 12000,
+      "used_stream_rows": 12000,
+      "features": 82,
+      "benign": 8080,
+      "attack": 3920,
+      "label_field": "y_test",
+      "raw_archive_redistributed": false,
+      "arrays": {
+        "test": {
+          "shape": [
+            12000,
+            82
+          ],
+          "dtype": "float64",
+          "role": "observed stream features"
+        },
+        "y_test": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "simulator/evaluator target gold; learner receives only requested arrived events"
+        },
+        "test_family": {
+          "shape": [
+            12000
+          ],
+          "dtype": "<U8",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_raw_rows": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_timestamps": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_attempted": {
+          "shape": [
+            12000
+          ],
+          "dtype": "int32",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        },
+        "test_feature_key": {
+          "shape": [
+            12000
+          ],
+          "dtype": "uint64",
+          "role": "provenance/schema/evaluation metadata; not model predictors"
+        }
+      }
+    }
+  ]
+}

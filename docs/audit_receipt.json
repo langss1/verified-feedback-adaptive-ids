@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-26",
+  "audited_experimental_commit": "3a64384e756c4847976b2919a14e44d03bca177f",
+  "public_blobs_verified": 111,
+  "public_release_assets_hash_verified": 7,
+  "anonymous_release_asset_requests_passed": 7,
+  "original_experimental_locks_unchanged": true,
+  "model_tuning_or_new_results": false,
+  "D4_saved_audit": {
+    "passed": true,
+    "streams": 870,
+    "grouped_checks": 2882857,
+    "max_metric_error": 5.551115123125783e-16,
+    "phases": [
+      "screen",
+      "check",
+      "confirmation"
+    ],
+    "partial": false,
+    "scope": "Independent arithmetic, label availability, matchedquery/ML2trajectories, classifierlabel/weighthashes, held exclusion, pseudo mass and score-controller reconstruction; not universalcorrectness or populationvalidityproof"
+  },
+  "D5_saved_audit": {
+    "passed": true,
+    "system_evaluations_audited": 240,
+    "native_ARF_feedback_schedules_matched": 80,
+    "ARF_fit_events_checked": 9520,
+    "ARF_training_label_uses_checked": 203512,
+    "ARF_audit_training_uses": 0,
+    "HGB_NN_fit_events_checked": 7330,
+    "HGB_NN_training_label_uses_checked": 1761816,
+    "independent_controller_blocks_checked": 28800,
+    "arithmetic_uses_independent_D4_auditor": true,
+    "max_metric_recompute_error": 4.440892098500626e-16,
+    "new_capture_overlap_with_old_sampled_2018": 0,
+    "new_capture_cross_overlap_fingerprints": 63,
+    "D4_original_lock_files_unchanged": 86,
+    "D5_lock_verified": true,
+    "scope": "All completed extension runs audited; shared routing evaluations are correlated. Cross-capture repeated predictor fingerprints, if present, are reported rather than claimed independent."
+  },
+  "adapter_checks": {
+    "passed": true,
+    "old_D4_route_replays": 120,
+    "max_probability_error": 0.0,
+    "exact_decision_replays": true,
+    "matched_event_schedules": 120,
+    "native_ARF_deterministic": true,
+    "audits_excluded_from_training": true,
+    "audit_label_changes_leave_raw_model_scores_unchanged": true,
+    "correction_replay_equals_initial_plus_latest_label": true,
+    "correction_does_not_rewrite_past_predictions": true,
+    "learner_function_has_no_target_gold_argument": true,
+    "software_fixtures_are_not_research_results": true
+  },
+  "D4_fresh_replay": {
+    "passed": true,
+    "run_id": "bot_main:11:delay80:new_selected",
+    "checked": {
+      "prediction_sha256": {
+        "expected": "94fca7b73ed9482aa43956893b2a5f8793a66bcb7ebbe36045ee177dc185207e",
+        "actual": "94fca7b73ed9482aa43956893b2a5f8793a66bcb7ebbe36045ee177dc185207e"
+      },
+      "source_prediction_sha256": {
+        "expected": "b241f6e7a353899cfe85d1058d1dcabe926bba5fd2094889f20e71fef481715b",
+        "actual": "b241f6e7a353899cfe85d1058d1dcabe926bba5fd2094889f20e71fef481715b"
+      }
+    },
+    "scope": "Fresh copied prepared-input workspace and refit, one frozen configuration; timing excluded; not all seeds/cases replayed",
+    "snapshot_sha256": "e0e006dce37438fea713409e512bdf1a59e9007db410004e82ebf4ad466750ca"
+  },
+  "D5_fresh_replay": {
+    "passed": true,
+    "dataset": "dos16_new",
+    "seed": 11,
+    "scenario": "feedback_corrected",
+    "initial_models_rebuilt_from_source": true,
+    "GDT_target_sha256": "982c29242c4bafc845fabab03035b2369dae87a426d83c7797857fa8ecfff8a2",
+    "GDT_source_sha256": "74aa5f1861ab551bd3dafe19e3e9a51acba84731517d233c98a2a0ab5b7a74be",
+    "ARF_target_sha256": "699e68fe703fd6846eb5f44844cdc3d81309388fd466a3b5073ec4888a5f712b",
+    "ARF_source_sha256": "3fc602be19702cbd5526e2e8592e4b72c79b350fc3a9cbc820faf16c4aea91b7",
+    "feedback_schedule_sha256": "e13e767b442558218f573650211d80e84555f5f90b17f2e161ec4e48d3e552bb",
+    "ARF_correction_resets": 41,
+    "scope": "One corrected-feedback new-capture case replayed in a separate process; exact target/source prediction agreement, not a universal correctness proof."
+  },
+  "numeric_and_data_audit": {
+    "experimental_source_commit": "3a64384e756c4847976b2919a14e44d03bca177f",
+    "saved_system_evaluations_recomputed": 400,
+    "reused_D4_system_evaluations": 160,
+    "additional_D5_system_evaluations": 240,
+    "table_II_cells_verified": 70,
+    "paired_metric_intervals_verified": 96,
+    "interval_endpoints_and_means_verified": 288,
+    "prepared_NPZ_files_mapped": 60,
+    "prepared_files_by_release": {
+      "v1.0.0": 50,
+      "v1.1.0": 10
+    },
+    "source_memory_actual": [
+      {
+        "seed": 11,
+        "base_benign": 8001,
+        "base_attack": 191,
+        "source_replay_samples": 703,
+        "source_prototype_samples": 703
+      },
+      {
+        "seed": 23,
+        "base_benign": 8012,
+        "base_attack": 180,
+        "source_replay_samples": 692,
+        "source_prototype_samples": 692
+      },
+      {
+        "seed": 37,
+        "base_benign": 7998,
+        "base_attack": 194,
+        "source_replay_samples": 706,
+        "source_prototype_samples": 706
+      },
+      {
+        "seed": 51,
+        "base_benign": 8020,
+        "base_attack": 172,
+        "source_replay_samples": 684,
+        "source_prototype_samples": 684
+      },
+      {
+        "seed": 79,
+        "base_benign": 8000,
+        "base_attack": 192,
+        "source_replay_samples": 704,
+        "source_prototype_samples": 704
+      }
+    ],
+    "all_numeric_results_match": true,
+    "source_sampling_text_correction_required": true,
+    "NSL_development_dimensions": [
+      116,
+      117,
+      118
+    ],
+    "UNSW_development_dimensions": [
+      157,
+      160,
+      167,
+      170
+    ]
+  },
+  "scope": "Audits and two selected fresh replays do not prove universal correctness, raw-level reconstruction of every development dataset, production readiness, or statistical population generalization.",
+  "public_paper_verifier": {
+    "passed": true,
+    "saved_system_evaluations_recomputed": 400,
+    "table_II_cells_verified": 70,
+    "paired_metric_intervals_verified": 96,
+    "interval_means_and_endpoints_verified": 288,
+    "issued_score_equation_max_error": 2.220446049250313e-16,
+    "scope": "400 correlated system evaluations include 160 reused D4 and 240 additional D5 evaluations. No new training or universal correctness claim."
+  }
+}

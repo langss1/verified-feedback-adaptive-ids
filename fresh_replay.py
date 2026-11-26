@@ -9,7 +9,8 @@ def main():
  lock=json.loads((ROOT/'protocol/confirmation_lock.json').read_text())
  for e in lock['files']:assert sha(ROOT/e['path'])==e['sha256'],e['path']
  stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S_%fZ');dst=ROOT/'replays'/stamp;dst.mkdir(parents=True,exist_ok=False)
- paths={e['path'] for e in lock['files']}|{p.name for p in ROOT.glob('*.py')}|{'protocol/confirmation_lock.json','environment.json','requirements.txt','README.txt'}
+ paths={e['path'] for e in lock['files']}|{p.name for p in ROOT.glob('*.py')}|{'protocol/confirmation_lock.json','environment.json','requirements.txt'}
+ paths.update(p.name for p in [ROOT/'README.md',ROOT/'README.txt'] if p.exists())
  for rel in sorted(paths):
   source=ROOT/rel;target=dst/rel;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
  (dst/'checks').mkdir(exist_ok=True);(dst/'analysis').mkdir(exist_ok=True)

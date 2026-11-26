@@ -1,0 +1,23 @@
+{
+  "tag": "v1.2.0",
+  "experimental_commit": "3a64384e756c4847976b2919a14e44d03bca177f",
+  "experimental_data_releases": [
+    "v1.0.0",
+    "v1.1.0"
+  ],
+  "models_or_results_changed": false,
+  "assets": [
+    {
+      "name": "ICNGN_R11_Audited_English_6_Pages.pdf",
+      "bytes": 162337,
+      "sha256": "b576121f3598d8bff8327b827096aea38edf74571b14ffc64683c926eeb8aa4e",
+      "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.2.0/ICNGN_R11_Audited_English_6_Pages.pdf"
+    },
+    {
+      "name": "ICNGN_R11_Editable_Source_and_Audit.zip",
+      "bytes": 427064,
+      "sha256": "cef1ad3dfc525fe5554728454760e7bf0d08fc858cbb3888f047c153a780fe8c",
+      "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.2.0/ICNGN_R11_Editable_Source_and_Audit.zip"
+    }
+  ]
+}
