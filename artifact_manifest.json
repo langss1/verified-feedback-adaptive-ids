@@ -1,0 +1,24 @@
+{
+  "release": "v1.0.0",
+  "assets": [
+    {
+      "name": "prepared_inputs.zip",
+      "bytes": 120665588,
+      "sha256": "76c48ede7084e4a5c4c55e2174c8c12332f604ec33ecda15876a0a0d548456ac",
+      "paths": 50
+    },
+    {
+      "name": "saved_predictions.zip",
+      "bytes": 422457556,
+      "sha256": "8b0c97c4d3cdaa988752ae40e78e2ca5820375ae1947b47580130c0b44e24aea",
+      "paths": 1783
+    },
+    {
+      "name": "example_models.zip",
+      "bytes": 5760601,
+      "sha256": "6839d593d9b12b25f88e99d6468eacc844422a4ecc15d9f21311e7ed8c8f8706",
+      "paths": 5
+    }
+  ],
+  "scope": "Prepared numeric benchmark data and saved predictions. Original dataset rights remain with their authors; MIT applies to project code."
+}

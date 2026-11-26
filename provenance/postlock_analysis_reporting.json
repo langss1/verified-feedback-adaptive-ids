@@ -1,0 +1,6 @@
+{
+  "timing": "Discovered by code inspection during confirmation, before complete aggregate analysis; 26 November 2026",
+  "problem": "Frozen analyze_results.py also creates ALL/CLEAN paired rows against the 100-percent-label reference, even though this reference was run only in clean1. Those rows would compare unequal condition sets.",
+  "correction": "Keep frozen analyze_results.py and its hash unchanged. finalize_analysis.py removes reference comparisons except clean1, archives excluded rows, and annotates seed summaries with available conditions.",
+  "scope": "Reporting correction only. No candidate, input, predictions, metric arithmetic, primary verdict, primary threshold, or scientific criterion changes. Primary frozen/matched comparisons already use identical conditions."
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "dataset": "bot_main",
+    "runs": 20,
+    "mean_correct_positive_training": 10.5,
+    "mean_correct_positive_audit": 3.0,
+    "runs_without_correct_positive_audit": 0,
+    "scope": "Exploratory budget diagnostic; repeated conditions/seeds on the same flow cohort, not a causal effect estimate"
+  },
+  {
+    "dataset": "dos_main",
+    "runs": 20,
+    "mean_correct_positive_training": 11.45,
+    "mean_correct_positive_audit": 0.8,
+    "runs_without_correct_positive_audit": 4,
+    "scope": "Exploratory budget diagnostic; repeated conditions/seeds on the same flow cohort, not a causal effect estimate"
+  }
+]

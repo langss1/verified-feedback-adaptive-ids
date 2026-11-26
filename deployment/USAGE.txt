@@ -1,0 +1,37 @@
+RAW FEATURE TRANSFORM AND ILLUSTRATIVE MODEL INFERENCE
+
+transform_seed_11.json (and four other seeds) stores exactly the original source-
+BASE medians, signed-log standardization mean/scale, ordered predictor columns
+and clipping limits. Export parity on every original source BASE row is checked
+in checks/exported_transformers.json. No target feature or label refits it.
+
+After the fresh replay, an example final snapshot is in model_examples/:
+bot_main_11_delay80_simulated_snapshot.pkl.
+This is ONE selected-method benchmark run, with arrived SIMULATED feedback.
+It is not trained by real human reviewers, not an aggregate of all experiment
+runs, and not certified for production. Its final model versions, threshold,
+gate radius and feedback origin accompany the two fitted classifier objects.
+
+Run the fixed snapshot from the project root:
+python inference.py --snapshot model_examples/bot_main_11_delay80_simulated_snapshot.pkl --transformer deployment/transform_seed_11.json --input-csv deployment/example_raw_features.csv --output example_predictions.csv
+
+The example contains TEN HISTORICAL SOURCE feature rows with no labels. It tests
+transformation and inference execution, not held-out detection accuracy.
+For another CSV, supply the SAME 82 corrected flow-feature definitions/units.
+Extra columns are ignored. Missing predictor columns fail clearly. Non-finite
+numeric values use the stored source medians; the source parameters stay fixed.
+Raw PCAP feature extraction is outside this command. Do not substitute another
+extractor schema just because a few column names look similar.
+
+Output: ML1 score/label, ML2 score/label, gate eligibility, raw combined score,
+threshold-shifted decision score and system label. Scores after threshold shift
+are decision scores, not calibrated posterior probabilities.
+
+For label-driven retraining and resumption, use human_workflow.py and the blank
+human_demo session, described in HUMAN_FEEDBACK_GUIDE.txt. Fixed inference does
+not silently update a model from its own predictions.
+
+Raw preparation utilities reference the preserved sibling D2 source archive by
+default. Model replay uses the supplied exact prepared arrays and does not need
+that archive. To re-export source transforms with a separately acquired matching
+archive: python export_transformers.py --source-archive PATH_TO_ARCHIVE.

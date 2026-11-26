@@ -1,0 +1,298 @@
+{
+  "preparation_only": true,
+  "model_scores_computed": false,
+  "cohorts": {
+    "web_main": {
+      "records": 12000,
+      "binary_counts": {
+        "0": 11999,
+        "1": 1
+      },
+      "families": {
+        "BENIGN": 11999,
+        "Web Attack - Brute Force": 1
+      },
+      "sample_type": "Label-blind12000distinctfeature sample",
+      "times": [
+        "2018-02-21 13:17:28.122821",
+        "2018-02-23 22:49:20.257130"
+      ],
+      "adequate_primary_attack_support": false,
+      "seeds": {
+        "11": {
+          "sha256": "06d240f9c7df39fcccc3d8661905a7e7874d0ebd3f1b878697bde0302e8ccd13"
+        },
+        "23": {
+          "sha256": "852926981d3a4f47669388a2888258a6c6918e95ded26c4a960da0dfa3b2cfc6"
+        },
+        "37": {
+          "sha256": "e1e77e4726b49892b5d301c2b71a62d6b50418fa5c92fce355c8894462a2c99e"
+        },
+        "51": {
+          "sha256": "66f06b7eb3ecda5a01704e8957587e7838288a86bb255041ba21658b3e99bc22"
+        },
+        "79": {
+          "sha256": "7703fa17b0029222f1059fbe8a9133cb0795c6c00e867043040f2ea370cfe6a0"
+        }
+      }
+    },
+    "web_challenge": {
+      "records": 12158,
+      "binary_counts": {
+        "0": 12000,
+        "1": 158
+      },
+      "families": {
+        "BENIGN": 12000,
+        "Web Attack - XSS": 73,
+        "Web Attack - Brute Force": 62,
+        "Web Attack - SQL": 23
+      },
+      "sample_type": "Case-control webattack census plus12000benign; NOT naturalprevalence",
+      "times": [
+        "2018-02-21 13:17:28.122821",
+        "2018-02-23 22:49:20.257130"
+      ],
+      "adequate_primary_attack_support": true,
+      "seeds": {
+        "11": {
+          "sha256": "fb6511037c3a14d09a9fe549903ae0f0affe233606a5fe150406a00b2d891b47"
+        },
+        "23": {
+          "sha256": "ef837f266a00d6836bdd766c1e1b5b4c83db83659acdf0f746abc86680227ca6"
+        },
+        "37": {
+          "sha256": "ec52c3bba090e9a6c8fcd642d5a42d28052dc11bc2e874bdfc8af741f6b9cd28"
+        },
+        "51": {
+          "sha256": "43aa62c63a6026ab28b5157dcbd03b1dea6290d35dcd99bb16340c70dec07b8b"
+        },
+        "79": {
+          "sha256": "0263bc886e795ebec30ef17d7882a62c256a9ec6455991a5c8144ec9668fc286"
+        }
+      }
+    },
+    "bot_main": {
+      "records": 12000,
+      "binary_counts": {
+        "0": 11666,
+        "1": 334
+      },
+      "families": {
+        "BENIGN": 11665,
+        "Botnet Ares": 334,
+        "Botnet Ares - Attempted": 1
+      },
+      "sample_type": "Label-blind12000distinctfeature sample",
+      "times": [
+        "2018-03-02 12:46:29.650238",
+        "2018-03-03 00:35:32.942263"
+      ],
+      "adequate_primary_attack_support": true,
+      "seeds": {
+        "11": {
+          "sha256": "1ab78b2f85f1a46c4c06d90c98e41756ecfd78a6b9a5f5d20e6122af389aa016"
+        },
+        "23": {
+          "sha256": "7338f713b554807971ef923941bb88345a60b7359f3a970f238acf7d19311236"
+        },
+        "37": {
+          "sha256": "79cde7b5e6810ca3d52031d496356e6109e332543a6a8ea94cb69ffd9618eaee"
+        },
+        "51": {
+          "sha256": "097d6cffef45ce844ddb7c3e4fd74e2f17e57035622b297b0471b6c10c636efa"
+        },
+        "79": {
+          "sha256": "ba909ca8754fc2276fd68d640bbc2bb9355b4643261a68cfdb1b74617bb355d3"
+        }
+      }
+    },
+    "dos_main": {
+      "records": 12000,
+      "binary_counts": {
+        "0": 11919,
+        "1": 81
+      },
+      "families": {
+        "BENIGN": 11900,
+        "DoS GoldenEye": 59,
+        "DoS Slowloris": 22,
+        "DoS GoldenEye - Attempted": 10,
+        "DoS Slowloris - Attempted": 9
+      },
+      "sample_type": "Label-blind12000distinctfeature sample",
+      "times": [
+        "2018-02-15 12:23:23.815291",
+        "2018-02-16 01:11:23.407206"
+      ],
+      "adequate_primary_attack_support": true,
+      "seeds": {
+        "11": {
+          "sha256": "d3e450f36eebab255cceb04bb81dba5be0db052bc04e97d0ea28e029fc896f98"
+        },
+        "23": {
+          "sha256": "f42c0b3af699796779b9ad5eba58b48749a46edb65057831c709ff6b82d2bf06"
+        },
+        "37": {
+          "sha256": "c9a79bd816828e17266f304ec58c552a611b1e01c2d932fe81b418d4d1109aa8"
+        },
+        "51": {
+          "sha256": "e3161e0af3e639e395a3fe1f2a9e3db411bb04ab0d1780b695b7eeab4432cba5"
+        },
+        "79": {
+          "sha256": "b0a24132906cee6f895e89ac03ec7d29d62e24c31a02601e16b21255e7a3cf94"
+        }
+      }
+    }
+  },
+  "dedup": "Float64 numeric predictor fingerprint; keepfirstarchive row. Conflicting binary-label fingerprints removed after entire member scan; oversampled labelblind reservoirs permit replacement. Final chronological ordering. History overlap excluded.",
+  "streaming": {
+    "Friday-23-02-2018.csv": {
+      "raw_rows": 5976481,
+      "unique_fingerprints": 4564513,
+      "duplicates": 1402434,
+      "history_overlap": 9534,
+      "conflicting_binary_fingerprints": 0,
+      "invalid_timestamp": 0,
+      "crc32": "04bf895f",
+      "streamed_csv_sha256": "67aa9220ec27aaccd433a76853f10afdb3a2652284f573414c1dd39283241986",
+      "csv_bytes": 3409376619,
+      "compressed_member_bytes": 1003697479,
+      "unique_raw_family_counts": {
+        "BENIGN": 4564283,
+        "Web Attack - XSS": 73,
+        "Web Attack - Brute Force": 62,
+        "Web Attack - Brute Force - Attempted": 61,
+        "Web Attack - SQL": 23,
+        "Web Attack - SQL - Attempted": 10,
+        "Web Attack - XSS - Attempted": 1
+      }
+    },
+    "Friday-02-03-2018.csv": {
+      "raw_rows": 6311371,
+      "unique_fingerprints": 5094275,
+      "duplicates": 1208551,
+      "history_overlap": 8545,
+      "conflicting_binary_fingerprints": 0,
+      "invalid_timestamp": 0,
+      "crc32": "1ddc33bc",
+      "streamed_csv_sha256": "f4641bab290bc07f48c560267250748f25ba0fa77029d02fe1d1c01bef3731d5",
+      "csv_bytes": 3689837784,
+      "compressed_member_bytes": 1070348706,
+      "unique_raw_family_counts": {
+        "BENIGN": 4951146,
+        "Botnet Ares": 142921,
+        "Botnet Ares - Attempted": 208
+      }
+    },
+    "Thursday-15-02-2018.csv": {
+      "raw_rows": 5410102,
+      "unique_fingerprints": 3971963,
+      "duplicates": 1427041,
+      "history_overlap": 11098,
+      "conflicting_binary_fingerprints": 0,
+      "invalid_timestamp": 0,
+      "crc32": "8aec59d2",
+      "streamed_csv_sha256": "a4be06a9776310dee18e3dae93d6dfef385e8d61db2e1775fc4c104ba0ee09cb",
+      "csv_bytes": 2992535617,
+      "compressed_member_bytes": 875626024,
+      "unique_raw_family_counts": {
+        "BENIGN": 3934334,
+        "DoS GoldenEye": 22560,
+        "DoS Slowloris": 8490,
+        "DoS GoldenEye - Attempted": 4301,
+        "DoS Slowloris - Attempted": 2278
+      }
+    }
+  },
+  "url": "https://intrusion-detection.distrinet-research.be/CNS2022/Datasets/CSECICIDS2018_improved.zip",
+  "etag": "\"26d7d2191-5f86fb8b66b7b\"",
+  "archive_bytes": 10426851729,
+  "https_bytes_transferred": 897393041,
+  "requests": 107,
+  "seconds": 387.4652967453003,
+  "feature_columns": [
+    "Protocol",
+    "Flow Duration",
+    "Total Fwd Packet",
+    "Total Bwd packets",
+    "Total Length of Fwd Packet",
+    "Total Length of Bwd Packet",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Min",
+    "Fwd Packet Length Mean",
+    "Fwd Packet Length Std",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Total",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Total",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd PSH Flags",
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "Fwd RST Flags",
+    "Bwd RST Flags",
+    "Fwd Header Length",
+    "Bwd Header Length",
+    "Fwd Packets/s",
+    "Bwd Packets/s",
+    "Packet Length Min",
+    "Packet Length Max",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "FIN Flag Count",
+    "SYN Flag Count",
+    "RST Flag Count",
+    "PSH Flag Count",
+    "ACK Flag Count",
+    "URG Flag Count",
+    "CWR Flag Count",
+    "ECE Flag Count",
+    "Down/Up Ratio",
+    "Average Packet Size",
+    "Fwd Segment Size Avg",
+    "Bwd Segment Size Avg",
+    "Fwd Bytes/Bulk Avg",
+    "Fwd Packet/Bulk Avg",
+    "Fwd Bulk Rate Avg",
+    "Bwd Bytes/Bulk Avg",
+    "Bwd Packet/Bulk Avg",
+    "Bwd Bulk Rate Avg",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes",
+    "FWD Init Win Bytes",
+    "Bwd Init Win Bytes",
+    "Fwd Act Data Pkts",
+    "Fwd Seg Size Min",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min",
+    "ICMP Code",
+    "ICMP Type",
+    "Total TCP Flow Time"
+  ]
+}

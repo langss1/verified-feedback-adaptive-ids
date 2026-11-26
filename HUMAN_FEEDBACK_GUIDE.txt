@@ -1,0 +1,67 @@
+ALUR FEEDBACK MANUSIA / D4
+
+Contoh siap pakai ada di human_demo/ (capture Wednesday 2017, seed 11).
+human_demo/review_queue.csv memiliki lima permintaan dengan human_label kosong.
+human_demo/session.pkl sudah mengamati 100 flow dan belum menerima label manusia.
+Setelah menilai bukti secara mandiri, isi label dan jalankan dari folder proyek:
+python human_workflow.py submit --session human_demo/session.pkl --csv human_demo/review_queue.csv
+python human_workflow.py advance --session human_demo/session.pkl --until 200
+python human_workflow.py status --session human_demo/session.pkl
+python human_workflow.py export --session human_demo/session.pkl --csv human_demo/next_queue.csv
+Status awal ada di human_demo/status.json. Kinerja manual belum tersedia karena
+belum ada cukup audit independen. Jangan mengisi label hanya untuk menghasilkan
+angka kinerja; label yang dipakai belajar dan audit memiliki peran berbeda.
+
+Peran:
+ML1 mendeteksi. ML2 memberi penilaian kedua berdasarkan contoh historis dan label
+terverifikasi. Keputusan gabungan mengikuti konfigurasi yang dikunci setelah
+pengembangan. Model kedua bukan sumber kebenaran otomatis.
+
+Mulai dengan data pengembangan yang tersedia:
+python human_workflow.py new --dataset nsl --seed 11 --session human_session.pkl --until 100
+python human_workflow.py export --session human_session.pkl --csv review_queue.csv
+
+Isi kolom human_label:0=normal,1=serangan. Biarkan kosong jika belum yakin.
+Jangan menjadikan skor model sebagai label kebenaran tanpa bukti independen.
+reviewer dapat diisi nama/inisial Anda; metadata ini tidak menjadi fitur model.
+available_event adalah indeks kapan penilaian boleh diterima dalam replay;
+minimal lebih besar dari request_t dan tidak boleh lebih awal dari posisi sesi.
+Baris antrean sengaja tidak menyertakan label dataset, kategori serangan, atau
+AttemptedCategory. source_raw_row menautkan ke baris capture; NSL menggunakan
+indeks array cleaned. Fitur yang diekspor sudah ditransformasi, bukan PCAP penuh.
+Penilaian keamanan nyata mungkin memerlukan konteks/payload tambahan.
+
+Masukkan penilaian dan lanjutkan:
+python human_workflow.py submit --session human_session.pkl --csv review_queue.csv
+python human_workflow.py advance --session human_session.pkl --until 200
+python human_workflow.py status --session human_session.pkl
+python human_workflow.py export --session human_session.pkl --csv next_queue.csv
+
+Untuk koreksi, gunakan request_id yang sama, revision dinaikkan1, label baru,
+dan available_event sesudah revisi sebelumnya. Koreksi disimpan sebagai event
+baru; prediksi yang sudah dikeluarkan tidak ditulis ulang. Pada batas pembaruan,
+model dilatih dari label yang kini berlaku. Ini bukan penghapusan persis dari
+seluruh histori model atau checkpointrollback.
+
+State disimpan untuk melanjutkan sesi. Antrean baru diekspor dengan label kosong.
+Status memisahkan feedback manusia, feedback uji sintetis, jumlah permintaan,
+label training/audit yang sudah masuk, revisi, versi ML1/ML2, dan jumlah retrain.
+Nilai kinerja manual hanya ditampilkan dari held-audit reviews dengan minimal20
+penilaian dan sedikitnya2perkelas; bukan akurasi pada data yang dipakai melatih.
+
+Uji mekanisme:
+python human_workflow.py selftest
+Ini memakai label SINTETIS untuk menguji ekspor/impor, retrain, koreksi, simpan/
+muat dan prediksi masa lalu yang tetap. Angka ini bukan penelitian manusia nyata.
+Eksperimen utama memakai simulator label dataset, ditandai origin=simulator.
+Belum ada manusia nyata yang dinyatakan berpartisipasi hanya karena selftest lulus.
+
+Melanjutkan ke capture lain tanpa menghapus pembelajaran:
+Untuk sesi CIC2017 Wednesday, contoh:
+python human_workflow.py append --session human_session.pkl --dataset friday
+Capture baru menggunakan seed dan transformasi fitur yang sama. Model, label,
+revisi, versi dan prediksi lama dipertahankan. Antrean mencantumkan asal capture.
+Jangan gabungkan NSL/UNSW dengan CIC: ruang fiturnya berbeda dan akan ditolak.
+Capture2018 baru boleh dibuka setelah confirmation_lock tersedia. Studi utama
+mengulang setiap capture dari kondisi historis yang sama untuk perbandingan adil;
+kemampuan append tidak menjadi klaim hasil uji lifelong lintas hari yang belum diuji.

@@ -1,0 +1,9 @@
+{
+  "timing": "Written during development before consolidatedscreenreview and before ANY predictive2018score. Notpublicpreregistration.",
+  "screen": "For eachdetector familyhgb/extra, choose highest meanBA dualroute across4developmentcorpora amongsettings with sourceBAgap>=-2pp andFPRgap<=1pp vsmatchedverified onEVERYcorpus; tieslowerFNRthenfittingrows. If nonepass, choosehighestmeanBA andmarkscreenfailure. Keeponecandidateperfamily tocomparefurthernoise/queryrobustness. Addmatchedverifiedandsimplemax controls; deduplicateidenticalsettings.",
+  "check": "Three seeds11/23/37,4developmentcorpora,delay80/wrongcorrected/checkerfalsebenign,randomandmixedquery. Final dualcandidate eligibility: samepercorpus source/FPRconstraints andmeangapBA>=0 vsmatchedverified. Prefereligible byoverallmeanBA, thenlowerFNR, thenfittingrows. Ifnoneeligible retainbestdualdiagnosticonly andreportfailedcriteria. No external tuning.",
+  "retention_probe": "Old2017CAL is explicitly DEVELOPMENT retentionvalidation used inselection, not anindependenttest. For final confirmation useaNEW Tuesday2017group/fingerprint-disjoint sourceprobe selectedbeforemodelscore andneverusedforcandidatechoice orlearning. Allmodelrolesandcontrols useidenticalnewprobe, andinitialvsfinalretention isreported. Do notclaimdevelopmentCAL wasneverusedinmodelselection.",
+  "counts": "Countonlyactualruns anddistinctconfigs afterdedup. Extra100percentoraclecleancasesseparateupperreference. Allvariantresultsretained. Five external seeds are not fiveindependentnetworks.",
+  "numerical_tolerance": "BA nonnegative tolerance1e-12 onlyfloatingmeanroundoff, no scientificmarginchange",
+  "fallback_priority": "Ifno candidatepassesallBA/source/FPRcriteria, preferdualsthatstillpasssource/FPRconstraints,thenrank; ifnosafecandidate,diagnosticbestBA. Primarycriteriaveredictremainsfailed. Clarifiedbeforeconsolidatedcheckandbeforeexternalprediction."
+}

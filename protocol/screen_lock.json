@@ -1,0 +1,151 @@
+{
+  "created_utc": "2026-11-25T22:36:38.827984+00:00",
+  "phase": "screen",
+  "configs": [
+    {
+      "kind": "hgb",
+      "route": "verified",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "gate",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "gate",
+      "pseudo": true,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "blend",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "blend",
+      "pseudo": true,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "max",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "verified",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "gate",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "gate",
+      "pseudo": true,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "blend",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "blend",
+      "pseudo": true,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "max",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    }
+  ],
+  "seeds": [
+    11
+  ],
+  "scenarios": [
+    "delay80"
+  ],
+  "expected_runs": 48,
+  "files": [
+    {
+      "path": "engine.py",
+      "sha256": "bd823fe881fe5c16dc3ea81416736f6e1abce9ab4aee69a453abf1952cc4aad2"
+    },
+    {
+      "path": "experiment.py",
+      "sha256": "14aa4aeb4654f2b361ad8ed3ede4b1e53571fd4c316d527cdcd4c501206b24c5"
+    },
+    {
+      "path": "run_development.py",
+      "sha256": "c06c90f915c0cf34b65b0f8ac287df82f8e988c5221d238bde05ef43785b1f7a"
+    },
+    {
+      "path": "protocol/design.json",
+      "sha256": "a5b69a8b826296251e800a2802027e609eff0becce29b415a08997fe3d4306bb"
+    }
+  ]
+}

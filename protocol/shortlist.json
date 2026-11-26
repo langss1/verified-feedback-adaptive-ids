@@ -1,0 +1,597 @@
+{
+  "candidates": [
+    {
+      "policy": "hgb_gate_P0_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "gate",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9246327131286405,
+      "mean_FNR": 0.09531915784298885,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.00021978021977997475,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": -0.00012833730979100455,
+          "source_gap": 0.0,
+          "FPR_gap": 0.001829826166514198
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.01019407493450497,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0003986181238373001
+        }
+      ]
+    },
+    {
+      "policy": "extra_gate_P0_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "gate",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9151432368566275,
+      "mean_FNR": 0.08521820989230537,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0003191828917967765,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.007690104493663474,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0002657454158915001
+        }
+      ]
+    }
+  ],
+  "configs": [
+    {
+      "kind": "hgb",
+      "route": "gate",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "verified",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "hgb",
+      "route": "max",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "gate",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "verified",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    {
+      "kind": "extra",
+      "route": "max",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    }
+  ],
+  "scores": [
+    {
+      "policy": "extra_blend_P0_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "blend",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9136664809191053,
+      "mean_FNR": 0.08817172176735005,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.0021022636353710267,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0002657454158915001
+        }
+      ]
+    },
+    {
+      "policy": "extra_blend_P1_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "blend",
+        "pseudo": true,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9119486880927112,
+      "mean_FNR": 0.08930564439549465,
+      "training_rows": 49224.5,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": -0.00047877433769560884,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": -0.012603917821309207,
+          "source_gap": 0.0087890625,
+          "FPR_gap": 0.026086956521739105
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.007606684286859511,
+          "source_gap": 0.021484375,
+          "FPR_gap": -0.019670631290027385
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.0007071002019402028,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0030560722827530995
+        }
+      ]
+    },
+    {
+      "policy": "extra_gate_P0_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "gate",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9151432368566275,
+      "mean_FNR": 0.08521820989230537,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0003191828917967765,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.007690104493663474,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0002657454158915001
+        }
+      ]
+    },
+    {
+      "policy": "extra_gate_P1_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "gate",
+        "pseudo": true,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9134653418917082,
+      "mean_FNR": 0.08627233679750072,
+      "training_rows": 49224.5,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": -0.012603917821309207,
+          "source_gap": 0.0087890625,
+          "FPR_gap": 0.026086956521739105
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.007606684286859511,
+          "source_gap": 0.021484375,
+          "FPR_gap": -0.019670631290027385
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.0062949410602326505,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0030560722827530995
+        }
+      ]
+    },
+    {
+      "policy": "extra_max_P0_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "max",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9237605786189288,
+      "mean_FNR": 0.06375215526258747,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.009593575104324792,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0012405548663584
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0077018633540372194,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0017391304347826042
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": -0.0009318248222108805,
+          "source_gap": -0.0068359375,
+          "FPR_gap": 0.012351326623970788
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.026115040798514233,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0018602179112410001
+        }
+      ]
+    },
+    {
+      "policy": "hgb_blend_P0_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "blend",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.922703984223622,
+      "mean_FNR": 0.09951970805924734,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.00021978021977997475,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0004267515404074995,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0004574565416285148
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.0019240704642323747,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0003986181238373001
+        }
+      ]
+    },
+    {
+      "policy": "hgb_blend_P1_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "blend",
+        "pseudo": true,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9241199495082547,
+      "mean_FNR": 0.09764192599371552,
+      "training_rows": 49574.5,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0009671238021777828,
+          "source_gap": 0.0,
+          "FPR_gap": -0.00033833314537049994
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0012995699952219608,
+          "source_gap": -0.00390625,
+          "FPR_gap": -0.0034782608695651945
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.004490726369982712,
+          "source_gap": -0.0380859375,
+          "FPR_gap": 0.0004574565416285148
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.0014770431955689611,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0003986181238373001
+        }
+      ]
+    },
+    {
+      "policy": "hgb_gate_P0_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "gate",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9246327131286405,
+      "mean_FNR": 0.09531915784298885,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.00021978021977997475,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": -0.00012833730979100455,
+          "source_gap": 0.0,
+          "FPR_gap": 0.001829826166514198
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.01019407493450497,
+          "source_gap": -0.0009765625,
+          "FPR_gap": 0.0003986181238373001
+        }
+      ]
+    },
+    {
+      "policy": "hgb_gate_P1_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "gate",
+        "pseudo": true,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9262885563448972,
+      "mean_FNR": 0.09307598404961631,
+      "training_rows": 49574.5,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.00160548958577178,
+          "source_gap": 0.0,
+          "FPR_gap": -0.00033833314537049994
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0012995699952219608,
+          "source_gap": -0.00390625,
+          "FPR_gap": -0.0034782608695651945
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.00403326982835428,
+          "source_gap": -0.0380859375,
+          "FPR_gap": 0.0013723696248855999
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.009970561300173153,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0003986181238373001
+        }
+      ]
+    },
+    {
+      "policy": "hgb_max_P0_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "max",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9313820210467295,
+      "mean_FNR": 0.07051687849721178,
+      "training_rows": 42390.0,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0024119600388923246,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0012405548663584
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.014008600095556378,
+          "source_gap": 0.021484375,
+          "FPR_gap": -0.010434782608695597
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.001851175737675681,
+          "source_gap": -0.041015625,
+          "FPR_gap": 0.0539798719121683
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.019011013644726238,
+          "source_gap": -0.001953125,
+          "FPR_gap": 0.0026574541589157
+        }
+      ]
+    }
+  ],
+  "scope": "Exploratorydevelopment; noexternalmodelscore"
+}

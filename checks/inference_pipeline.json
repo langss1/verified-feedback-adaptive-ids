@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rows": 10,
+  "maximum_transform_error": 6.973588373426765e-16,
+  "prediction_parity": true,
+  "scope": "CSV round-trip and inference parity with initial source-only models on historical feature rows. No held-out accuracy or extra confirmation result."
+}

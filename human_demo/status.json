@@ -1,0 +1,19 @@
+{
+  "dataset": "wednesday",
+  "captures": [
+    "wednesday"
+  ],
+  "total_available_rows": 12000,
+  "observed": 100,
+  "requests": 5,
+  "training_received": 0,
+  "held_audit_received": 0,
+  "real_human_events_received": 0,
+  "synthetic_events_received": 0,
+  "pending_feedback": 0,
+  "ML1_version": 0,
+  "ML2_version": 0,
+  "ML1_retrains": 0,
+  "corrections_received": 0,
+  "performance_scope": "Only independentheldreviews, not trainingresubstitution; no datasetgold is stored in this session"
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://intrusion-detection.distrinet-research.be/CNS2022/Datasets/CICIDS2017_improved.zip",
+  "sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+  "bytes": 343549013,
+  "archive_members": [
+    {
+      "name": "friday.csv",
+      "bytes": 285188226,
+      "compressed": 77431866
+    },
+    {
+      "name": "monday.csv",
+      "bytes": 207875155,
+      "compressed": 66068274
+    },
+    {
+      "name": "thursday.csv",
+      "bytes": 189519159,
+      "compressed": 54809596
+    },
+    {
+      "name": "tuesday.csv",
+      "bytes": 178397720,
+      "compressed": 56074903
+    },
+    {
+      "name": "wednesday.csv",
+      "bytes": 291290505,
+      "compressed": 89163460
+    }
+  ],
+  "source": "Author-hosted corrected CNS2022 CICIDS2017; not original academic mirror",
+  "attempted_rule": "Attempted Category != -1 treated benign; metadata never predictor",
+  "acquired_utc": "2026-11-25T13:02:11.981385+00:00"
+}

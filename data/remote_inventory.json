@@ -1,0 +1,79 @@
+{
+  "url": "https://intrusion-detection.distrinet-research.be/CNS2022/Datasets/CSECICIDS2018_improved.zip",
+  "archive_bytes": 10426851729,
+  "etag": "\"26d7d2191-5f86fb8b66b7b\"",
+  "last_modified": "Mon, 03 Apr 2023 14:53:27 GMT",
+  "members": [
+    {
+      "name": "Wednesday-14-02-2018.csv",
+      "bytes": 3262583806,
+      "compressed": 930748488,
+      "crc32": "af553b82",
+      "method": 8
+    },
+    {
+      "name": "Friday-16-02-2018.csv",
+      "bytes": 4211741805,
+      "compressed": 1185737835,
+      "crc32": "e9afc9aa",
+      "method": 8
+    },
+    {
+      "name": "Tuesday-20-02-2018.csv",
+      "bytes": 3431246090,
+      "compressed": 995495228,
+      "crc32": "e0a48bbb",
+      "method": 8
+    },
+    {
+      "name": "Wednesday-21-02-2018.csv",
+      "bytes": 3952691068,
+      "compressed": 1114297684,
+      "crc32": "d485a089",
+      "method": 8
+    },
+    {
+      "name": "Thursday-22-02-2018.csv",
+      "bytes": 3473832504,
+      "compressed": 1021667163,
+      "crc32": "41f6b62e",
+      "method": 8
+    },
+    {
+      "name": "Friday-23-02-2018.csv",
+      "bytes": 3409376619,
+      "compressed": 1003697479,
+      "crc32": "04bf895f",
+      "method": 8
+    },
+    {
+      "name": "Wednesday-28-02-2018.csv",
+      "bytes": 3812223732,
+      "compressed": 1113130663,
+      "crc32": "2d1fc1d0",
+      "method": 8
+    },
+    {
+      "name": "Thursday-01-03-2018.csv",
+      "bytes": 3808397458,
+      "compressed": 1116100289,
+      "crc32": "c7b771ed",
+      "method": 8
+    },
+    {
+      "name": "Thursday-15-02-2018.csv",
+      "bytes": 2992535617,
+      "compressed": 875626024,
+      "crc32": "8aec59d2",
+      "method": 8
+    },
+    {
+      "name": "Friday-02-03-2018.csv",
+      "bytes": 3689837784,
+      "compressed": 1070348706,
+      "crc32": "1ddc33bc",
+      "method": 8
+    }
+  ],
+  "index_bytes_transferred": 8200593
+}

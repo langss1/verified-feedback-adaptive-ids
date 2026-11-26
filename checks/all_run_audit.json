@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "streams": 870,
+  "grouped_checks": 2882857,
+  "max_metric_error": 5.551115123125783e-16,
+  "phases": [
+    "screen",
+    "check",
+    "confirmation"
+  ],
+  "partial": false,
+  "scope": "Independent arithmetic, label availability, matchedquery/ML2trajectories, classifierlabel/weighthashes, held exclusion, pseudo mass and score-controller reconstruction; not universalcorrectness or populationvalidityproof"
+}

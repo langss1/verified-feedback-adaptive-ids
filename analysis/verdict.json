@@ -1,0 +1,162 @@
+{
+  "selected_config": {
+    "kind": "hgb",
+    "route": "gate",
+    "pseudo": false,
+    "query": "mixed",
+    "interval": 200,
+    "positive_weight": 2.0,
+    "full_history": false,
+    "legacy_memory": false
+  },
+  "roles": {
+    "new_selected": "new_selected",
+    "matched_verified": "matched_verified",
+    "simple_max": "simple_max",
+    "without_pseudo": "new_selected",
+    "frozen_detector": "frozen_detector",
+    "budget_full_history": "budget_full_history",
+    "old_rvea_full": "old_rvea_full"
+  },
+  "trained_runs": 390,
+  "predictions": 4699750,
+  "real_human_events_received": 0,
+  "primary_verdict": [
+    {
+      "dataset": "dos_main",
+      "BA_gain_vs_frozen": {
+        "mean": 0.14737386308197614,
+        "lo": 0.09647076353441722,
+        "hi": 0.19827696262953506,
+        "n": 5
+      },
+      "BA_gain_vs_matched_verified": {
+        "mean": 0.006899193009604931,
+        "lo": 0.0007195294395361193,
+        "hi": 0.013078856579673743,
+        "n": 5
+      },
+      "retention_change_vs_initial": {
+        "mean": 0.003662109375,
+        "lo": -9.365493773790716e-05,
+        "hi": 0.007417873687737907,
+        "n": 5
+      },
+      "FPR": 0.0009312861817266053,
+      "source_gap_vs_matched": {
+        "mean": 9.765625e-05,
+        "lo": -0.000173480967304472,
+        "hi": 0.000368793467304472,
+        "n": 5
+      },
+      "FPR_gap_vs_matched": {
+        "mean": -0.00021813910562966501,
+        "lo": -0.0008237903577073729,
+        "hi": 0.0003875121464480428,
+        "n": 5
+      },
+      "adaptation_passed": true,
+      "increment_screen_passed": false,
+      "increment_CI_positive": true
+    },
+    {
+      "dataset": "bot_main",
+      "BA_gain_vs_frozen": {
+        "mean": 0.4431928958814756,
+        "lo": 0.4023394267765971,
+        "hi": 0.48404636498635406,
+        "n": 5
+      },
+      "BA_gain_vs_matched_verified": {
+        "mean": 0.001328018572832068,
+        "lo": -0.0002908648591847863,
+        "hi": 0.0029469020048489224,
+        "n": 5
+      },
+      "retention_change_vs_initial": {
+        "mean": 0.00146484375,
+        "lo": -0.001656180001192652,
+        "hi": 0.004585867501192652,
+        "n": 5
+      },
+      "FPR": 0.0021901251500085353,
+      "source_gap_vs_matched": {
+        "mean": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 5
+      },
+      "FPR_gap_vs_matched": {
+        "mean": 3.8573632779005014e-05,
+        "lo": -9.025288962770957e-06,
+        "hi": 8.617255452078099e-05,
+        "n": 5
+      },
+      "adaptation_passed": true,
+      "increment_screen_passed": false,
+      "increment_CI_positive": false
+    }
+  ],
+  "adaptation_passed_both": true,
+  "increment_passed_both": false,
+  "increment_CI_positive_both": false,
+  "families": [
+    {
+      "dataset": "bot_main",
+      "family": "Botnet Ares",
+      "unique_flow_support": 334,
+      "mean_recall": 0.8884730538922154,
+      "aspiration_evaluable": true,
+      "recall70_passed": true
+    },
+    {
+      "dataset": "dos_main",
+      "family": "DoS GoldenEye",
+      "unique_flow_support": 59,
+      "mean_recall": 0.17203389830508478,
+      "aspiration_evaluable": true,
+      "recall70_passed": false
+    },
+    {
+      "dataset": "dos_main",
+      "family": "DoS Slowloris",
+      "unique_flow_support": 22,
+      "mean_recall": 0.6272727272727272,
+      "aspiration_evaluable": true,
+      "recall70_passed": false
+    },
+    {
+      "dataset": "web_challenge",
+      "family": "Web Attack - Brute Force",
+      "unique_flow_support": 62,
+      "mean_recall": 0.5862903225806451,
+      "aspiration_evaluable": true,
+      "recall70_passed": false
+    },
+    {
+      "dataset": "web_challenge",
+      "family": "Web Attack - SQL",
+      "unique_flow_support": 23,
+      "mean_recall": 0.0,
+      "aspiration_evaluable": true,
+      "recall70_passed": false
+    },
+    {
+      "dataset": "web_challenge",
+      "family": "Web Attack - XSS",
+      "unique_flow_support": 73,
+      "mean_recall": 0.9246575342465754,
+      "aspiration_evaluable": true,
+      "recall70_passed": true
+    },
+    {
+      "dataset": "web_main",
+      "family": "Web Attack - Brute Force",
+      "unique_flow_support": 1,
+      "mean_recall": 0.0,
+      "aspiration_evaluable": false,
+      "recall70_passed": null
+    }
+  ],
+  "scope": "Frozenexternal evaluation. web_mainONEattackdescriptiveonly. web_challengecasecontrolnotnaturalprevalence.5seedsnot5independentsites. Realhumanoriginseparate; nogroundtruthfeedbackclaimedfrominspector."
+}

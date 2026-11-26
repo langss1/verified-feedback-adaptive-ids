@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "unqueried_gold_noninterference": true,
+  "CAL_label_noninterference": true,
+  "future_feature_label_prefix_invariance": true,
+  "dynamic_query_contract_common_across_matched_policies": true,
+  "held_audit_excluded_from_both_classifiers": true,
+  "pseudo_weight_cap": true,
+  "scope": "One1200eventdevelopmentcase metamorphic checks; independentallrunauditfollows; not universalproof"
+}

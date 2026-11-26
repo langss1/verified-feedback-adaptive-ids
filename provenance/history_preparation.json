@@ -1,0 +1,221 @@
+{
+  "source_sha256": "97fdb91d339e2d8cf5627f981b831e5e7e400b981c58181c451a38fd03c48883",
+  "days": {
+    "wednesday": {
+      "eligible": true,
+      "clean_future": 477975,
+      "removed_initial_feature_overlap": 10452,
+      "remaining_future": 467523,
+      "stream": 12000,
+      "counts": {
+        "0": 7526,
+        "1": 4474
+      },
+      "time": [
+        "2017-07-05 11:42:44.698078",
+        "2017-07-05 20:08:17.323293"
+      ],
+      "families": {
+        "BENIGN": 7371,
+        "DoS Hulk": 4122,
+        "DoS GoldenEye": 199,
+        "DoS Slowloris": 113,
+        "DoS Slowhttptest - Attempted": 89,
+        "DoS Slowloris - Attempted": 44,
+        "DoS Slowhttptest": 40,
+        "DoS Hulk - Attempted": 17,
+        "DoS GoldenEye - Attempted": 5
+      },
+      "seeds": {
+        "11": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "b7a0463ed362129fefbce968583d00d0341ec056a573271a386c43daa539db07"
+        },
+        "23": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "16da7471f818b760a2f5b42c57c75de611afef4e13dfbe0b146fb8bd0be4a05c"
+        },
+        "37": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "7e45316e2aeeae183278af3aff2dba0d9815c68dcddbe453a6943df15b3727b1"
+        },
+        "51": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "44dc9e228239b5937fc874f2c6a5a19b80b887eb5d0495f46367215f09a58996"
+        },
+        "79": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "38fd4eda70036d992cc3281f63f99289e30852c2dcdf210a5426def0e4b907da"
+        }
+      }
+    },
+    "friday": {
+      "eligible": true,
+      "clean_future": 370370,
+      "removed_initial_feature_overlap": 10014,
+      "remaining_future": 360356,
+      "stream": 12000,
+      "counts": {
+        "0": 8867,
+        "1": 3133
+      },
+      "time": [
+        "2017-07-07 12:00:41.926822",
+        "2017-07-07 20:02:20.380127"
+      ],
+      "families": {
+        "BENIGN": 8812,
+        "DDoS": 3059,
+        "Botnet - Attempted": 55,
+        "Portscan": 53,
+        "Botnet": 21
+      },
+      "seeds": {
+        "11": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "659a3e435f0e6e3df74119500dea45d6aa36049d9004fbfcfda0273f50441c30"
+        },
+        "23": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "db142ede49d444d38bb41304404726290cddc5fb39bad60dd8b3e1065fdde93e"
+        },
+        "37": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "2e31c76a3444766ce17492e3ac912706e8fa9b017b68c41fae7565e0fcf61d32"
+        },
+        "51": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "8180b05c5e12a9addb606870281c6cb6dfa57f7c7372590b7f0b3986e29b2e4e"
+        },
+        "79": {
+          "base": 8192,
+          "meta": 1024,
+          "cal": 1024,
+          "split_attempt": 0,
+          "npz_sha256": "4a4f2427d4882c5b02716aa7d45aed557a53478a32049329a9b55e55a053407f"
+        }
+      }
+    }
+  },
+  "preparation_only": true,
+  "model_scores_not_computed": true,
+  "initial_counts": {
+    "0": 300252,
+    "1": 6933
+  },
+  "initial_time": [
+    "2017-07-04 11:53:44.398274",
+    "2017-07-04 20:00:30.041663"
+  ],
+  "features": [
+    "Protocol",
+    "Flow Duration",
+    "Total Fwd Packet",
+    "Total Bwd packets",
+    "Total Length of Fwd Packet",
+    "Total Length of Bwd Packet",
+    "Fwd Packet Length Max",
+    "Fwd Packet Length Min",
+    "Fwd Packet Length Mean",
+    "Fwd Packet Length Std",
+    "Bwd Packet Length Max",
+    "Bwd Packet Length Min",
+    "Bwd Packet Length Mean",
+    "Bwd Packet Length Std",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Flow IAT Std",
+    "Flow IAT Max",
+    "Flow IAT Min",
+    "Fwd IAT Total",
+    "Fwd IAT Mean",
+    "Fwd IAT Std",
+    "Fwd IAT Max",
+    "Fwd IAT Min",
+    "Bwd IAT Total",
+    "Bwd IAT Mean",
+    "Bwd IAT Std",
+    "Bwd IAT Max",
+    "Bwd IAT Min",
+    "Fwd PSH Flags",
+    "Bwd PSH Flags",
+    "Fwd URG Flags",
+    "Bwd URG Flags",
+    "Fwd RST Flags",
+    "Bwd RST Flags",
+    "Fwd Header Length",
+    "Bwd Header Length",
+    "Fwd Packets/s",
+    "Bwd Packets/s",
+    "Packet Length Min",
+    "Packet Length Max",
+    "Packet Length Mean",
+    "Packet Length Std",
+    "Packet Length Variance",
+    "FIN Flag Count",
+    "SYN Flag Count",
+    "RST Flag Count",
+    "PSH Flag Count",
+    "ACK Flag Count",
+    "URG Flag Count",
+    "CWR Flag Count",
+    "ECE Flag Count",
+    "Down/Up Ratio",
+    "Average Packet Size",
+    "Fwd Segment Size Avg",
+    "Bwd Segment Size Avg",
+    "Fwd Bytes/Bulk Avg",
+    "Fwd Packet/Bulk Avg",
+    "Fwd Bulk Rate Avg",
+    "Bwd Bytes/Bulk Avg",
+    "Bwd Packet/Bulk Avg",
+    "Bwd Bulk Rate Avg",
+    "Subflow Fwd Packets",
+    "Subflow Fwd Bytes",
+    "Subflow Bwd Packets",
+    "Subflow Bwd Bytes",
+    "FWD Init Win Bytes",
+    "Bwd Init Win Bytes",
+    "Fwd Act Data Pkts",
+    "Fwd Seg Size Min",
+    "Active Mean",
+    "Active Std",
+    "Active Max",
+    "Active Min",
+    "Idle Mean",
+    "Idle Std",
+    "Idle Max",
+    "Idle Min",
+    "ICMP Code",
+    "ICMP Type",
+    "Total TCP Flow Time"
+  ]
+}

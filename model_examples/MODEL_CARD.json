@@ -1,0 +1,63 @@
+{
+  "threshold": 0.5,
+  "radius": 18.12263064261861,
+  "config": {
+    "kind": "hgb",
+    "route": "gate",
+    "pseudo": false,
+    "query": "mixed",
+    "interval": 200,
+    "positive_weight": 2.0,
+    "full_history": false,
+    "legacy_memory": false
+  },
+  "seed": 11,
+  "feature_count": 82,
+  "feedback_origin": "simulator",
+  "dataset": "bot_main",
+  "scenario": "delay80",
+  "observed": 12000,
+  "ML1_version": 60,
+  "ML2_version": 119,
+  "source_prediction_sha256": "b241f6e7a353899cfe85d1058d1dcabe926bba5fd2094889f20e71fef481715b",
+  "scope": "Illustrative final benchmark snapshot from source and arrived simulated labels, not real-human or deployment validation",
+  "snapshot": "bot_main_11_delay80_simulated_snapshot.pkl",
+  "snapshot_sha256": "e0e006dce37438fea713409e512bdf1a59e9007db410004e82ebf4ad466750ca",
+  "roles": {
+    "ML1": "HistGradientBoostingClassifier",
+    "ML2": "Inspector"
+  },
+  "annotation": "Only arrived simulated benchmark labels. No real-human training feedback.",
+  "inference": "See deployment/USAGE.txt; raw feature CSVs must match the same corrected 82-feature schema.",
+  "detector_parameters": {
+    "categorical_features": "from_dtype",
+    "class_weight": null,
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 64,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 64,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 11,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "inspector_configuration": {
+    "neighbors": 7,
+    "metric": "manhattan",
+    "algorithm": "brute",
+    "historical_weight": 1,
+    "recent_verified_weight": 4,
+    "total_memory_rows": 1179
+  }
+}

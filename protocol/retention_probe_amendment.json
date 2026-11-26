@@ -1,0 +1,6 @@
+{
+ "timing":"Before any2018predictiveevaluation andbeforeconfirmationlock; development432runscancontinueusingoldCALunchanged.",
+ "reason":"S2sourceprobe was inadvertently used in implementation smoke tests of the legacyadapter and100percentlabelreference on600CIC2017developmentflows. Numerical retention scores were not printed or used in candidatechoice, but it is no longer completelynever-scored.",
+ "action":"ArchiveS2arraysandreceipt underprovenance/data. PrepareFINAL S3sourceprobe excluding alloldBASE/META/CALandS2canonicalgroups/fingerprints, fixednewseedoffset19914, no classifier score. UseS3forfinalretention only. Do not rerunsmokeagainstS3. Sourcehistory/targetdata/coremodelcode/selectioncriteriaunchanged.",
+ "independence":"FinalS3isneverseenbycandidatechoice, learningorimplementationmetricsbeforeconfirmationlock. Retentionissourcedomainreplay, notanotherproductionnetwork. PreserveS2smoketestcode/data fortransparency."
+}

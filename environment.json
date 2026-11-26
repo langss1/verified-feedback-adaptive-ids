@@ -1,0 +1,15 @@
+{
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "matplotlib": "3.8.1",
+    "threadpoolctl": "3.7.0",
+    "psutil": "7.0.0"
+  },
+  "logical_cpus": 12,
+  "resource_note": "Sharedworkstation;development4then6BLAS1workers; no standalone speedclaims"
+}

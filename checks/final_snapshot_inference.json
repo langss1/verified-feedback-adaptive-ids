@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "csv_smoke_rows": 10,
+  "source_prediction_rows": 1024,
+  "source_prediction_sha256": "b241f6e7a353899cfe85d1058d1dcabe926bba5fd2094889f20e71fef481715b",
+  "identical_to_archived_final_source_scores": true,
+  "snapshot_sha256": "e0e006dce37438fea713409e512bdf1a59e9007db410004e82ebf4ad466750ca",
+  "scope": "Fixed inference pipeline replay, not a new detection-performance trial"
+}

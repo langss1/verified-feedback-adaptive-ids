@@ -1,0 +1,11 @@
+__pycache__/
+.artifact_cache/
+*.pyc
+*.pkl
+*.npz
+*.zip
+results/
+inputs/
+replays/
+checks/human_workflow/
+analysis/figures/

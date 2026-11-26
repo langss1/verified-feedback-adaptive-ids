@@ -1,0 +1,40 @@
+{
+  "scope": "NEW unusedTuesday2017sourceprobe,selectedbeforecandidateconfirmation,notforselectionortraining. OldCALdevelopmentvalidation remainsseparate.",
+  "seeds": {
+    "11": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "5428ad6d49529e171d088f99b750a5a8f5445df8ec170dd7f50176983b7cb67e",
+      "unused_group_and_feature_disjoint": true
+    },
+    "23": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "8a0ccafd14c7bf7541c5e38cad72b0cde62440fded71929b92f6d7ff76767c78",
+      "unused_group_and_feature_disjoint": true
+    },
+    "37": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "7fe976a0ddef7ac32b37758435645ddbb4f5cdad65c20088797e72d582fc4073",
+      "unused_group_and_feature_disjoint": true
+    },
+    "51": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "5bb480ddc4a7103f4ce738ef9bb9545776efd5d0852f1532f0da4942a9136cc4",
+      "unused_group_and_feature_disjoint": true
+    },
+    "79": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "372a4a2266b29b9c0ff59358ac8c702f4cc76778b3273509c4193f98a189798c",
+      "unused_group_and_feature_disjoint": true
+    }
+  }
+}

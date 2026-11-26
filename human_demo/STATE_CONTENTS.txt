@@ -1,0 +1,17 @@
+CONTENTS OF THE BLANK HUMAN DEMO
+
+Capture: corrected CICIDS2017 Wednesday, seed 11, first 100 observations.
+Five reviews have been requested. All human_label values are blank.
+No real-human or synthetic label has been submitted to this demo session.
+
+The state contains transformed observed/current capture features, historical
+source training labels, historical META/validation inputs needed to initialize
+the fixed method, model objects, issued scores and request records. It does NOT
+store gold labels or attack-family labels for the target capture.
+
+The status phrase "no datasetgold" refers to TARGET-STREAM gold labels; source
+supervised training labels are necessarily present for the initialized models.
+The synthetic workflow test lives separately in checks/human_workflow/.
+
+Use HUMAN_FEEDBACK_GUIDE.txt from the project root to enter independent reviews,
+submit revisions, advance and save the session, or append a compatible capture.

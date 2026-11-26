@@ -1,0 +1,414 @@
+{
+  "selected": "hgb_gate_P0_mixed_w2",
+  "config": {
+    "kind": "hgb",
+    "route": "gate",
+    "pseudo": false,
+    "query": "mixed",
+    "interval": 200,
+    "positive_weight": 2.0,
+    "full_history": false,
+    "legacy_memory": false
+  },
+  "development_eligible": true,
+  "fallback": "none",
+  "selected_details": {
+    "policy": "hgb_gate_P0_mixed_w2",
+    "config": {
+      "kind": "hgb",
+      "route": "gate",
+      "pseudo": false,
+      "query": "mixed",
+      "interval": 200,
+      "positive_weight": 2.0,
+      "full_history": false,
+      "legacy_memory": false
+    },
+    "eligible": true,
+    "nonnegative_allcorpora": true,
+    "mean_BA": 0.9208844576121776,
+    "mean_FNR": 0.10485643092341862,
+    "training_rows": 46217.75,
+    "details": [
+      {
+        "dataset": "friday",
+        "BA_gap": 0.0014008582473312714,
+        "source_gap": 0.0,
+        "FPR_gap": 0.0
+      },
+      {
+        "dataset": "nsl",
+        "BA_gap": 0.0015430624126275827,
+        "source_gap": 0.0006510416666666297,
+        "FPR_gap": -0.0006441223832527945
+      },
+      {
+        "dataset": "unsw",
+        "BA_gap": 0.0003363016686254161,
+        "source_gap": 0.0,
+        "FPR_gap": 0.0009092142941148351
+      },
+      {
+        "dataset": "wednesday",
+        "BA_gap": 0.0060723513904923365,
+        "source_gap": -0.0003255208333332593,
+        "FPR_gap": -0.0010186907609177217
+      }
+    ]
+  },
+  "scores": [
+    {
+      "policy": "extra_gate_P0_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "gate",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9127039432458781,
+      "mean_FNR": 0.0826235052718313,
+      "training_rows": 46217.75,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.00035464765755199856,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0007814407814409341,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 2.9132436054402078e-05,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.004495450721740957,
+          "source_gap": -0.00010850694444441977,
+          "FPR_gap": 7.381817108097818e-05
+        }
+      ]
+    },
+    {
+      "policy": "extra_gate_P0_random_w2",
+      "config": {
+        "kind": "extra",
+        "route": "gate",
+        "pseudo": false,
+        "query": "random",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.905076761005112,
+      "mean_FNR": 0.09581954036482519,
+      "training_rows": 46194.444444444445,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.002447068837110322,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.00021978021978030782,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.004919989352232035,
+          "source_gap": 0.0,
+          "FPR_gap": 4.429090264860061e-05
+        }
+      ]
+    },
+    {
+      "policy": "extra_max_P0_mixed_w2",
+      "config": {
+        "kind": "extra",
+        "route": "max",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9184160164224036,
+      "mean_FNR": 0.06723088342277236,
+      "training_rows": 46217.75,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.002642599005541091,
+          "source_gap": 0.00032552083333337034,
+          "FPR_gap": 0.0010275302933473445
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.008750508750508867,
+          "source_gap": -0.0007595486111111605,
+          "FPR_gap": 0.002962962962962945
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.00033826331118913533,
+          "source_gap": -0.0032552083333333703,
+          "FPR_gap": 0.008930681884484537
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.016777593235649757,
+          "source_gap": -0.00249565972222221,
+          "FPR_gap": 0.003026545014320723
+        }
+      ]
+    },
+    {
+      "policy": "extra_max_P0_random_w2",
+      "config": {
+        "kind": "extra",
+        "route": "max",
+        "pseudo": false,
+        "query": "random",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9116206603437743,
+      "mean_FNR": 0.08008874728865945,
+      "training_rows": 46194.444444444445,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.010459978091837963,
+          "source_gap": 0.0027126736111111605,
+          "FPR_gap": 7.518514341566668e-05
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.014480366654279764,
+          "source_gap": 0.04253472222222221,
+          "FPR_gap": -0.006054750402576484
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": -0.0009821698556178315,
+          "source_gap": -0.00336371527777779,
+          "FPR_gap": 0.011369507244640864
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.009804260873271353,
+          "source_gap": -0.00640190972222221,
+          "FPR_gap": 0.005226326512534334
+        }
+      ]
+    },
+    {
+      "policy": "hgb_gate_P0_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "gate",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9208844576121776,
+      "mean_FNR": 0.10485643092341862,
+      "training_rows": 46217.75,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0014008582473312714,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0015430624126275827,
+          "source_gap": 0.0006510416666666297,
+          "FPR_gap": -0.0006441223832527945
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0003363016686254161,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0009092142941148351
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.0060723513904923365,
+          "source_gap": -0.0003255208333332593,
+          "FPR_gap": -0.0010186907609177217
+        }
+      ]
+    },
+    {
+      "policy": "hgb_gate_P0_random_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "gate",
+        "pseudo": false,
+        "query": "random",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": true,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9126418161864761,
+      "mean_FNR": 0.11683074803116655,
+      "training_rows": 46194.444444444445,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0025534631343759884,
+          "source_gap": 0.0,
+          "FPR_gap": 0.0
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.0018392879262443262,
+          "source_gap": 0.00434027777777779,
+          "FPR_gap": -0.004508856682769742
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": -0.0001180680971716308,
+          "source_gap": -0.0004340277777777901,
+          "FPR_gap": 0.0007049645016170281
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.006015755259414335,
+          "source_gap": -0.0006510416666666297,
+          "FPR_gap": 0.0001623999763781872
+        }
+      ]
+    },
+    {
+      "policy": "hgb_max_P0_mixed_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "max",
+        "pseudo": false,
+        "query": "mixed",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": true,
+      "mean_BA": 0.9267919468577576,
+      "mean_FNR": 0.08277606954864974,
+      "training_rows": 46217.75,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.0068867859526682285,
+          "source_gap": -0.0013020833333333703,
+          "FPR_gap": 0.0012280240091224665
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.010837536054927321,
+          "source_gap": -0.00032552083333337034,
+          "FPR_gap": 0.0020611916264090396
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": 0.0010397465850808807,
+          "source_gap": -0.01898871527777779,
+          "FPR_gap": 0.03530613547976888
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.014218462108720575,
+          "source_gap": -0.0020616319444444198,
+          "FPR_gap": 0.0017125815690790442
+        }
+      ]
+    },
+    {
+      "policy": "hgb_max_P0_random_w2",
+      "config": {
+        "kind": "hgb",
+        "route": "max",
+        "pseudo": false,
+        "query": "random",
+        "interval": 200,
+        "positive_weight": 2.0,
+        "full_history": false,
+        "legacy_memory": false
+      },
+      "eligible": false,
+      "nonnegative_allcorpora": false,
+      "mean_BA": 0.9195506928530991,
+      "mean_FNR": 0.09207924510609874,
+      "training_rows": 46194.444444444445,
+      "details": [
+        {
+          "dataset": "friday",
+          "BA_gap": 0.014285091256817761,
+          "source_gap": -0.0015190972222222099,
+          "FPR_gap": 0.0017167274413242334
+        },
+        {
+          "dataset": "nsl",
+          "BA_gap": 0.012475093344658683,
+          "source_gap": -0.00010850694444441977,
+          "FPR_gap": 0.005281803542673109
+        },
+        {
+          "dataset": "unsw",
+          "BA_gap": -0.0011681671414878192,
+          "source_gap": -0.01302083333333326,
+          "FPR_gap": 0.029153084842792165
+        },
+        {
+          "dataset": "wednesday",
+          "BA_gap": 0.01233392742936601,
+          "source_gap": -0.00542534722222221,
+          "FPR_gap": 0.003941890335725043
+        }
+      ]
+    }
+  ],
+  "scope": "Locked developmentselection; same-labelbudget fullhistory/newverified/simplemax/oldRVEA controls. No2018modelscoreused."
+}

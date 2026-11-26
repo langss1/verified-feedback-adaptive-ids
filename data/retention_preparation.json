@@ -1,0 +1,40 @@
+{
+  "scope": "FINAL S3 unusedTuesday2017sourceprobe,excludesoldBASE/META/CALandS2smokeprobe groups/fingerprints. Neverclassifier-scored beforeconfirmationlock; neverforselection/training. S2archivedwithsmokeonlyscope.",
+  "seeds": {
+    "11": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "f263543cb12028162a9a16c625652ac117590813be92727516cfdca0c345ac39",
+      "unused_group_and_feature_disjoint": true
+    },
+    "23": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "1b4d1b32783d406177a44162abde4cbda271c96fa2322da6d1cbe3f2f31830e5",
+      "unused_group_and_feature_disjoint": true
+    },
+    "37": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "6e5a2fca6f12d51359d860d36350e3c44063603039bbe767a0723d9e7b5cb12b",
+      "unused_group_and_feature_disjoint": true
+    },
+    "51": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "efaecfafc94192f0b7253160eba0a36397c37b6962496bc3838a446c3d3eaf75",
+      "unused_group_and_feature_disjoint": true
+    },
+    "79": {
+      "n": 1024,
+      "benign": 512,
+      "attack": 512,
+      "sha256": "d68d719b563e2022258e0b920c8249c4db27c5a494db1ef2af10552b80d445b4",
+      "unused_group_and_feature_disjoint": true
+    }
+  }
+}

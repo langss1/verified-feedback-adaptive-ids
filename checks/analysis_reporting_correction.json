@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "frozen_analysis_sha256": "1a5303044c4c0cc0a73bfee4aa29a32f2d7341c8e60717043c58a5e460c04974",
+  "unfiltered_paired_csv_sha256": "6b53d3c561e62aa5044a641abff53ca5e7b886b87a47df60ea01c4595b05de52",
+  "excluded_unmatched_comparisons": 114,
+  "rule": "Full-supervision reference is compared ONLY within clean1, the only condition in which it was run. Remove ALL/CLEAN aggregates and other unmatched conditions.",
+  "unchanged": "No models, input arrays, selection, primary verdict, per-condition measured scores or primary-comparison criteria changed."
+}
