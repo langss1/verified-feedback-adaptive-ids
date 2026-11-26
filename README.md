@@ -5,7 +5,28 @@ gradient boosting. ML2 is a weighted seven-neighbor inspector. The selected
 positive-evidence gate uses arrived verified labels, and pseudo-label training
 is disabled. Models are refitted periodically; this is not per-sample partial_fit.
 
-## Findings and scope
+## D5 extension: matched native ARF and additional captures
+
+The frozen extension adds 80 native-ARF runs and 40 shared HGB/NN trajectories,
+yielding 240 additional system evaluations. Two previously unscored capture
+members contain 12000 flows each. The detailed protocol, audit and analysis are
+in [extensions/d5](extensions/d5). Download the reproducible extension, updated
+five-page English manuscript, editable source and supplement from
+[release v1.1.0](https://github.com/langss1/verified-feedback-adaptive-ids/releases/tag/v1.1.0).
+
+| New capture | GDT BA | Native ARF BA | Simple maximum BA | GDT - verified BA |
+| --- | ---: | ---: | ---: | ---: |
+| Hulk16 | 96.46% | 89.10% | 97.15% | +0.29 pp |
+| DDoS20 | 91.45% | 78.08% | 93.52% | +0.55 pp |
+
+The gate still misses the one-point incremental target, and simple maximum
+remains higher in mean BA. Native ARF shares acquisition/labels/audits but differs
+in weighting, memory and update cadence; this is a package comparison. Both new
+captures belong to the same historical benchmark and share 63 fingerprints.
+All annotations are simulated. No model was retuned using these outcomes.
+The original D4 source/input lock and v1.0.0 artifacts remain unchanged.
+
+## Original D4 findings and scope
 
 The fixed confirmation consists of 390 runs and 4,699,750 flow decisions.
 The complete development and confirmation archive has 870 audited runs.

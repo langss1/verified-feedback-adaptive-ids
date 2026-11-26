@@ -1,0 +1,980 @@
+{
+  "passed": true,
+  "system_evaluations_audited": 240,
+  "native_ARF_feedback_schedules_matched": 80,
+  "ARF_fit_events_checked": 9520,
+  "ARF_training_label_uses_checked": 203512,
+  "ARF_audit_training_uses": 0,
+  "HGB_NN_fit_events_checked": 7330,
+  "HGB_NN_training_label_uses_checked": 1761816,
+  "independent_controller_blocks_checked": 28800,
+  "arithmetic_uses_independent_D4_auditor": true,
+  "max_metric_recompute_error": 4.440892098500626e-16,
+  "new_capture_overlap_with_old_sampled_2018": 0,
+  "new_capture_cross_overlap_fingerprints": 63,
+  "D4_original_lock_files_unchanged": 86,
+  "D5_lock_verified": true,
+  "scope": "All completed extension runs audited; shared routing evaluations are correlated. Cross-capture repeated predictor fingerprints, if present, are reported rather than claimed independent.",
+  "runs": [
+    {
+      "run_id": "bot_main:11:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:11:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:11:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:11:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:23:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:23:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:23:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:23:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:37:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:37:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:37:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:37:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:51:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:51:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:51:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:51:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:79:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:79:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:79:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "bot_main:79:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:11:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:23:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:37:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:51:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "ddos20_new:79:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:11:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:23:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:37:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:51:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:checker_fault:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:checker_fault:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:checker_fault:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:checker_fault:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:clean1:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:clean1:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:clean1:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:clean1:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:delay80:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:delay80:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:delay80:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:delay80:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:feedback_corrected:new_selected",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:feedback_corrected:matched_verified",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:feedback_corrected:simple_max",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:feedback_corrected:frozen_detector",
+      "passed": true
+    },
+    {
+      "run_id": "dos16_new:79:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:11:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:11:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:11:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:11:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:23:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:23:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:23:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:23:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:37:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:37:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:37:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:37:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:51:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:51:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:51:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:51:feedback_corrected:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:79:checker_fault:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:79:clean1:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:79:delay80:arf_native_matched",
+      "passed": true
+    },
+    {
+      "run_id": "dos_main:79:feedback_corrected:arf_native_matched",
+      "passed": true
+    }
+  ]
+}

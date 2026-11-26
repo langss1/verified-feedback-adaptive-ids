@@ -1,0 +1,30 @@
+{
+  "tag": "v1.1.0",
+  "base_dependency": "v1.0.0",
+  "assets": [
+    {
+      "name": "ICNGN_English_R7_5_Pages.pdf",
+      "bytes": 154530,
+      "sha256": "800340ede0903fe113a5f1b4be41d04a3bf0eb52431e07f3ceeed72ef7e7576d",
+      "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/ICNGN_English_R7_5_Pages.pdf"
+    },
+    {
+      "name": "ICNGN_English_R7_Editable_Source.zip",
+      "bytes": 427571,
+      "sha256": "ec31a034c146fd49bcab226d616580e42d2e5e7a5e4e1b64cb227582af4d6ce2",
+      "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/ICNGN_English_R7_Editable_Source.zip"
+    },
+    {
+      "name": "D5_Baseline_and_New_Capture_Supplement.pdf",
+      "bytes": 339077,
+      "sha256": "2f923d251eda85697e50cb73d3f9b2c9658b50ba3492f1993f8ee5015085e51b",
+      "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/D5_Baseline_and_New_Capture_Supplement.pdf"
+    },
+    {
+      "name": "D5_Adaptive_Baseline_Extension.zip",
+      "bytes": 156542155,
+      "sha256": "27bea51095b9ec9f46faa8e43097acbc5de3a1e7fe11a1c4c96fe249ea20908c",
+      "url": "https://github.com/langss1/verified-feedback-adaptive-ids/releases/download/v1.1.0/D5_Adaptive_Baseline_Extension.zip"
+    }
+  ]
+}

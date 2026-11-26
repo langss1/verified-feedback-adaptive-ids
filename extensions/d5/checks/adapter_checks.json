@@ -1,0 +1,857 @@
+{
+  "passed": true,
+  "old_D4_route_replays": 120,
+  "max_probability_error": 0.0,
+  "exact_decision_replays": true,
+  "matched_event_schedules": 120,
+  "native_ARF_deterministic": true,
+  "audits_excluded_from_training": true,
+  "audit_label_changes_leave_raw_model_scores_unchanged": true,
+  "correction_replay_equals_initial_plus_latest_label": true,
+  "correction_does_not_rewrite_past_predictions": true,
+  "learner_function_has_no_target_gold_argument": true,
+  "software_fixtures_are_not_research_results": true,
+  "seconds": 8.228501319885254,
+  "details": [
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 11,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 23,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 37,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 51,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "dos_main",
+      "seed": 79,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 11,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 23,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 37,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 51,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "clean1",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "clean1",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "clean1",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "delay80",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "delay80",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "delay80",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "feedback_corrected",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "feedback_corrected",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "feedback_corrected",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "checker_fault",
+      "route": "matched_verified",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "checker_fault",
+      "route": "simple_max",
+      "max_error": 0.0
+    },
+    {
+      "dataset": "bot_main",
+      "seed": 79,
+      "scenario": "checker_fault",
+      "route": "frozen_detector",
+      "max_error": 0.0
+    }
+  ]
+}

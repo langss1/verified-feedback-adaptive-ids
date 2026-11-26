@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "dataset": "dos16_new",
+  "seed": 11,
+  "scenario": "feedback_corrected",
+  "initial_models_rebuilt_from_source": true,
+  "GDT_target_sha256": "982c29242c4bafc845fabab03035b2369dae87a426d83c7797857fa8ecfff8a2",
+  "GDT_source_sha256": "74aa5f1861ab551bd3dafe19e3e9a51acba84731517d233c98a2a0ab5b7a74be",
+  "ARF_target_sha256": "699e68fe703fd6846eb5f44844cdc3d81309388fd466a3b5073ec4888a5f712b",
+  "ARF_source_sha256": "3fc602be19702cbd5526e2e8592e4b72c79b350fc3a9cbc820faf16c4aea91b7",
+  "feedback_schedule_sha256": "e13e767b442558218f573650211d80e84555f5f90b17f2e161ec4e48d3e552bb",
+  "ARF_correction_resets": 41,
+  "seconds": 131.36610865592957,
+  "scope": "One corrected-feedback new-capture case replayed in a separate process; exact target/source prediction agreement, not a universal correctness proof."
+}

@@ -1,0 +1,28 @@
+{
+  "dos16_new": {
+    "gate_vs_verified_BA_pp": 0.29087947060012054,
+    "gate_vs_verified_CI": [
+      -0.0755532444900347,
+      0.6573121856902757
+    ],
+    "gate_vs_max_BA_pp": -0.6878220347544972,
+    "gate_vs_ARF_BA_pp": 7.353259496868057,
+    "gate_increment_target_met": false,
+    "adaptation_criteria_met": true,
+    "adequate_support": true
+  },
+  "ddos20_new": {
+    "gate_vs_verified_BA_pp": 0.5484779355921998,
+    "gate_vs_verified_CI": [
+      0.3366111938631635,
+      0.7603446773212361
+    ],
+    "gate_vs_max_BA_pp": -2.0723835824946857,
+    "gate_vs_ARF_BA_pp": 13.372030453727888,
+    "gate_increment_target_met": false,
+    "adaptation_criteria_met": true,
+    "adequate_support": true
+  },
+  "consistent_gate_increment_on_both_new_captures": false,
+  "scope": "Capture-level paired intervals over five algorithmic seeds, four conditions averaged within seed. Same benchmark, not independent organizations; baseline weighting/update/memory differ explicitly. No target-threshold or model retuning."
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-26",
+  "timing": "After confirmation input/code lock, while runs were executing; no model/parameter or primary-criterion changes.",
+  "additions": [
+    "Report raw-score AP and fixed-0.5 metrics alongside the primary issued threshold-shifted-score metrics.",
+    "Descriptive post-hoc sensitivity: exclude the 63 fingerprints shared by the two new captures from evaluation only, retaining each run's already-issued predictions and original learner state. This does not remove their possible training influence and does not create independent sites."
+  ],
+  "primary_analysis_unchanged": true,
+  "model_retuning": false,
+  "purpose": "Make controller effects and the small cross-capture overlap explicit; do not select a favorable score or replace the primary full-cohort results."
+}
